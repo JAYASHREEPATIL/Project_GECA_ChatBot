@@ -90,3 +90,10 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: tpo_information
+  examples: |
+    - who is traning and placement officer of your college?
+    - which one is TPO of your college?
+    - give me information about TPO
+    - who is placement officer?
