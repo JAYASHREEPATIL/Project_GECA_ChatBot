@@ -2,29 +2,131 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: happy tpo information path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: tpo_information
+  - action: utter_tpoinfo
+  - intent: tpo_contact
+  - action: utter_tpocontact
+  - intent: tpo_meet
+  - action: utter_tpomeet
+  - intent: any_other_than_tpo
+  - action: utter_any_other_than_tpo
 
-- story: sad path 1
+- story: happy placement information path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: placememt_information
+  - action: utter_placememt_information
+  - intent: main_recruiters
+  - action: utter_main_recruiters
+  - intent: placement_MNC
+  - action: utter_placement_MNC
+  - intent: placement_non_core_branch
+  - action: utter_placement_non_core_branch
+  - intent: placement_core_branch
+  - action: utter_placement_core_branch
+  - intent: maximum_package
+  - action: utter_maximum_package
+  - intent: upcomimg_campus_details
+  - action: utter_upcomimg_campus_details
 
-- story: sad path 2
+- story: happy traning information path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: traning_placement
+  - action: utter_traning_placement
+  - intent: registration_traning
+  - action: utter_registration_traning
+  - intent: traning_fees_inquire
+  - action: utter_traning_fees_inquire
+  - intent: time_inquire
+  - action: utter_time_inquire
+  - intent: certification_of_traning
+  - action: utter_certification_of_traning
+  - intent: event_organize_by_MNC
+  - action: utter_event_organize_by_MNC
+  - intent: prev_traning_details
+  - action: utter_prev_traning_details
+  - intent: more_detail_traning
+  - action: utter_more_detail_traning
+
+- story: happy placement queries path cse
+  steps:
+    - intent: quries_regarding_placement
+    - action: utter_quries_regarding_placement
+    - intent: computer_science
+    - action: utter_computer_science
+
+- story: happy placement queries path it
+  steps:
+    - intent: quries_regarding_placement
+    - action: utter_quries_regarding_placement
+    - intent: info_technology
+    - action: utter_info_technology
+
+- story: happy placement queries path me
+  steps:
+    - intent: quries_regarding_placement
+    - action: utter_quries_regarding_placement
+    - intent: mech_engineering
+    - action: utter_mech_engineering
+
+- story: happy placement queries path civil
+  steps:
+    - intent: quries_regarding_placement
+    - action: utter_quries_regarding_placement
+    - intent: civil_engineering
+    - action: utter_civil_engineering
+
+- story: happy placement queries path electrical
+  steps:
+    - intent: quries_regarding_placement
+    - action: utter_quries_regarding_placement
+    - intent: electrical_engineering
+    - action: utter_electrical_engineering
+
+- story: happy placement queries path electronics
+  steps:
+    - intent: quries_regarding_placement
+    - action: utter_quries_regarding_placement
+    - intent: electronic_engineering
+    - action: utter_electronic_engineering
+
+- story: happy placement record path 2013 14
+  steps:
+    - intent: placement_records
+    - action: utter_placement_records
+    - intent: placement_record_of_2013_14
+    - action: utter_placement_record_of_2013_14
+
+- story: happy placement record path 2014 15
+  steps:
+    - intent: placement_records
+    - action: utter_placement_records
+    - intent: placement_record_of_2014_15
+    - action: utter_placement_record_of_2014_15
+
+- story: happy placement record path 2015 16
+  steps:
+    - intent: placement_records
+    - action: utter_placement_records
+    - intent: placement_record_of_2015_16
+    - action: utter_placement_record_of_2015_16
+
+- story: happy placement record path 2016 17
+  steps:
+    - intent: placement_records
+    - action: utter_placement_records
+    - intent: placement_record_of_2016_17
+    - action: utter_placement_record_of_2016_17
+
+- story: happy placement record path 2017 18
+  steps:
+    - intent: placement_records
+    - action: utter_placement_records
+    - intent: placement_record_of_2017_18
+    - action: utter_placement_record_of_2017_18
+
+- story: end path
+  steps:
+    - intent: end
+    - action: utter_end
