@@ -1,3 +1,5 @@
+version: "2.0"
+
 intents:
   - greet
   - goodbye
@@ -6,21 +8,42 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - live_score
-  - helloworld_action
+  - tpo_information
+  - tpo_contact
+  - tpo_meet
+  - any_other_than_tpo
+  - placememt_information
+  - main_recruiters
+  - placement_MNC
+  - placement_non_core_branch
+  - placement_core_branch
+  - maximum_package
+  - upcomimg_campus_details
+  - traning_placement
+  - traning_fees_inquire
+  - time_inquire
+  - registration_traning
+  - certification_of_traning
+  - event_organize_by_MNC
+  - prev_traning_details
+  - more_detail_traning
+  - quries_regarding_placement
+  - computer_science
+  - info_technology
+  - mech_engineering
+  - civil_engineering
+  - electrical_engineering
+  - electronic_engineering
+  - placement_records
+  - placement_record_of_2013_14
+  - placement_record_of_2014_15
+  - placement_record_of_2015_16
+  - placement_record_of_2016_17
+  - placement_record_of_2017_18
+  - end
 
-actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
-- utter_iamabot
-- utter_live_score
-- action_hello_world_program
 
-
-templates:
+responses:
   utter_greet:
   - text: "Hey! How are you?"
 
@@ -39,9 +62,184 @@ templates:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-  utter_live_score:
-  - text: "ind won by 107 runs"
-  
+
+
+
+
+  utter_tpoinfo:
+  - text: "prof. Shailesh Ambekar is TPO of our college."
+
+  utter_tpocontact:
+  - text: "you can contact them on mobile no or drop a mail :
+           contact no:9422712321
+           Telephone No:240-2366357
+           email-id:tpo@geca.ac.in"
+
+  utter_tpomeet:
+  - text: "yes, you can meet them in college time. 10.30am to 5.00pm"
+
+  utter_any_other_than_tpo:
+  - text: "you can contact any of office coordinator:
+            Name:Patel Shoab Email-id:patelshoab77@gmail.com contact.no:7304477897
+            Name:Pradhyumna Jakate Email-id:pradhyumnaj@gmail.com contact.no:8408972460
+            Name:Onkar Navekar Email-id:onkarnavekar3@gmail.com  contact.no:8857990750
+            Name:Sahil Bhalerao Email-id:sahilbhalerao0204@gmail.com contact.no:7719066137"
+
+
+
+  utter_placememt_information:
+  - text: "we provide 100% placement"
+
+  utter_main_recruiters:
+  - text: " we have main recruiters like - Tata Consultancy Services, Larsen and Turbo,TCS Digital ,3DPLM Software,
+           		Lodha Group ,Grind Master ,Reliance Industries,Siemens Ltd.,CG Power and
+           Ind soln Ltd,Bizsense Solutions,Eumentis Cloud, Softlink Solution, ElasticRun etc."
+
+  utter_placement_MNC:
+  - text: "yes we have it"
+
+  utter_placement_non_core_branch:
+  - text: "yes we have good companies with good packages for non-core branches too.."
+
+  utter_placement_core_branch:
+  - text: "yes we have good companies with good packages for core branches too.."
+
+  utter_maximum_package:
+  - text: "according to our records and students performance we provide maximum package between 7 to 10 lack per annum."
+
+  utter_upcomimg_campus_details:
+  - text: "here is that: http://tpo.geca.ac.in/Default.aspx/"
+
+
+
+
+  utter_traning_placement:
+  - text: "Our college provide training and conduct workshop,events for placement preparation"
+
+  utter_traning_fees_inquire:
+  - text: "workshops and training are provides from college so you not need to pay anything."
+
+  utter_time_inquire:
+  - text: "you are allocate separate time for training or workshop"
+
+  utter_registration_traning:
+  - text: "you need to contact to your TPO student coordinator according to your branch"
+
+  utter_certification_of_traning:
+  - text: "you will not get any certificate separately but it get on your score card or added to your acedemic record"
+
+  utter_event_organize_by_MNC:
+  - text: "we organize hackathons and competitions which are conducted by companies"
+
+  utter_prev_traning_details:
+  - text: "from here you can get details of it: http://tpo.geca.ac.in/Default.aspx"
+
+  utter_more_detail_traning:
+  - text: "you can contact TPO students coordinator or visit this one : http://tpo.geca.ac.in/Default.aspx"
+
+  utter_quries_regarding_placement:
+  - text: "Okay, don't worry we are here to help you.choose you branch.."
+    buttons:
+      - title: "Computer science and Engineering"
+        payload: "/computer_science"
+      - title: "Information Technology"
+        payload: "/info_technology"
+      - title: "Mechanical Engineering "
+        payload: "/mech_engineering"
+      - title: "Civil Engineering"
+        payload: "/civil_engineering"
+      - title: "Electrical Engineering"
+        payload: "/electrical_engineering"
+      - title: "Electronics and Telecommunication"
+        payload: "/electronic_engineering"
+
+  utter_info_technology:
+  - text: " you can contact your TPO coordinator ---> Name: Rohit Salve  contact no: xxxxxxxxx"
+
+  utter_computer_science:
+  - text: "you can contact your TPO coordinator ---> Name : Gajanan Dhotre contact no: xxxxxxxxx"
+
+  utter_mech_engineering:
+  - text: "you can contact your TPO coordinator ---> Name: xxxxxxxxx   contact no: xxxxxxxxx"
+
+  utter_civil_engineering:
+  - text: "you can contact your TPO coordinator ---> Name: xxxxxxxxx  contact no: xxxxxxxxx"
+
+  utter_electrical_engineering:
+  - text: "you can contact your TPO coordinator ---> Name: xxxxxxxxx  contact no: xxxxxxxxx"
+
+  utter_electronic_engineering:
+  - text: "you can contact your TPO coordinator ---> Name: xxxxxxxxx  contact no: xxxxxxxxx"
+
+  utter_placement_records:
+  - text: "you can get our placement records from here : choose the year :-> "
+    buttons:
+      - title: "Placement Record of 2013-14"
+        payload: "/placement_record_of_2013_14"
+      - title: "Placement Record of 2014-15"
+        payload: "/placement_record_of_2014_15"
+      - title: "Placement Record of 2015-16"
+        payload: "/placement_record_of_2015_16"
+      - title: "Placement Record of 2016-17"
+        payload: "/placement_record_of_2016_17"
+      - title: "Placement Record of 2017-18"
+        payload: "/placement_record_of_2017_18"
+
+  utter_placement_record_of_2013_14:
+  - text: " here is that:-) http://tpo.geca.ac.in/PlacementRecords2013-14.aspx/"
+
+  utter_placement_record_of_2014_15:
+  - text: "here is that http://tpo.geca.ac.in/PlacementRecords2014-15.aspx/"
+
+  utter_placement_record_of_2015_16:
+  - text: "here is that http://tpo.geca.ac.in/PlacementRecords2015-16.aspx/"
+
+  utter_placement_record_of_2016_17:
+  - text: "here is that http://tpo.geca.ac.in/PlacementRecords2016-17.aspx/"
+
+  utter_placement_record_of_2017_18:
+  - text: "here is that http://tpo.geca.ac.in/PlacementRecords2017-18.aspx/"
+
+  utter_end:
+  - text: "It's my pleasure! Happy to help you :)"
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+actions :
+    - utter_tpoinfo
+    - utter_tpocontact
+    - utter_tpomeet
+    - utter_any_other_than_tpo
+    - utter_placememt_information
+    - utter_main_recruiters
+    - utter_placement_MNC
+    - utter_placement_non_core_branch
+    - utter_placement_core_branch
+    - utter_maximum_package
+    - utter_upcomimg_campus_details
+    - utter_traning_placement
+    - utter_traning_fees_inquire
+    - utter_time_inquire
+    - utter_registration_traning
+    - utter_certification_of_traning
+    - utter_event_organize_by_MNC
+    - utter_prev_traning_details
+    - utter_more_detail_traning
+    - utter_quries_regarding_placement
+    - utter_info_technology
+    - utter_computer_science
+    - utter_mech_engineering
+    - utter_civil_engineering
+    - utter_electrical_engineering
+    - utter_electronic_engineering
+    - utter_placement_records
+    - utter_placement_record_of_2013_14
+    - utter_placement_record_of_2014_15
+    - utter_placement_record_of_2015_16
+    - utter_placement_record_of_2016_17
+    - utter_placement_record_of_2017_18
+    - utter_end
+
