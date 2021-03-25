@@ -93,7 +93,184 @@ nlu:
 
 - intent: tpo_information
   examples: |
-    - who is traning and placement officer of your college?
-    - which one is TPO of your college?
+    - who is is the training and placement officer of your college?
+    - which one is the TPO of your college?
     - give me information about TPO
-    - who is placement officer?
+    - who is the placement officer?
+
+- intent: tpo_contact
+  examples: |
+    - can i get TPO contact?
+    - how to contact TPO?
+    - Show me TPO contact details
+    - give me email-id of TPO
+    - give me mobile no of TPO
+
+- intent: tpo_meet
+  examples: |
+    - can I meet TPO?
+    - can I visit TPO?
+    - can i get to their office
+    - Can i meet them face to face?
+
+- intent: any_other_than_tpo
+  examples: |
+    - can i contact any other faculty if they are not available?
+    - can i contact other than TPO
+    - TPO sir not available
+    - i can't reach to TPO
+
+- intent: placememt_information
+  examples: |
+    - does your college provide 100% placements?
+    - what percentage of your college has placement?
+
+
+- intent: upcomimg_campus_details
+  examples: |
+    - can i get upcoming campus details?
+    - what is the upcoming plan for campus?
+    - latest update from campus
+
+- intent: main_recruiters
+  examples: |
+    - i want to know about placements
+    - which are the main recruiters of your college?
+    - which companies have tires with you?
+    - give some information about placements
+
+- intent: placement_MNC
+  examples: |
+    - do you have placement for MNCs?
+    - do your college offer placement for MNCs?
+
+- intent: placement_non_core_branch
+  examples: |
+    - do you have a placement for a non-core branch?
+    - is there any placement for civil engineering?
+    - is there any placement for Mechanical engineering?
+    - is there any placement for Electrical engineering?
+
+- intent: placement_core_branch
+  examples: |
+    - do you have placement for core branch
+    - is there any placement for computer engineering?
+    - is there any placement for Information Technology?
+    - is there any placement for Electronics engineering?
+
+- intent: maximum_package
+  examples: |
+    - what is the maximum package at your college?
+    - highest package of your college
+    - maximum offer i can get
+
+- intent: traning_placement
+  examples: |
+    - does college provide training for placement?
+    - can i get training for placement?
+
+
+- intent: prev_traning_details
+  examples: |
+    - do you have previous training, workshop or event details
+
+
+- intent: traning_organize_by_MNC
+  examples: |
+    - is there any training organized by Companies or MNCs?
+
+
+- intent: traning_fees_inquire
+  examples: |
+    - does i need to pay any fees for training or workshop
+    - is it required money to pay for training or workshop?
+    - does traning require any additional fees?
+    - does training require any donation?
+
+- intent: time_inquire
+  examples: |
+    - what is the time of training?
+    - when this training or workshop conducted?
+    - does training require additional time rather than college?
+
+
+- intent: registration_traning
+  examples: |
+    - does it require to register for training?
+    - how can i register for training?
+
+- intent: certification_of_traning
+  examples: |
+    - can i get certification after training or workshop?
+    - does traning provide certification?
+
+- intent: more_detail_traning
+  examples: |
+    - how can i get more details about training?
+    - tell me more about traning and worshops?
+    - show me more details regarding traning
+
+- intent: quries_regarding_placement
+  examples: |
+    - i have queries regarding my placement
+    - i want to complaint regarding placement
+    - i want to enquire regarding placement
+    - i have doubt  about placement
+
+- intent: computer_science
+  examples: |
+    - computer science and engineering
+
+- intent : info_technology
+  examples: |
+    - information technology
+
+- intent : mech_engineering
+  examples: |
+    - mechenical engineering
+
+- intent : civil_engineering
+  examples: |
+    - civil engineering
+
+- intent : electrical_engineering
+  examples: |
+    - electrical engineering
+
+- intent : electronic_engineering
+  examples: |
+    - electronic engineering
+
+- intent : placement_records
+  examples: |
+    - can you please give me placement records
+    - can i get history of placement
+    - previous year placement data
+
+- intent : placement_record_of_2013_14
+  examples: |
+    - placement record of 2013-14
+
+- intent : placement_record_of_2014_15
+  examples: |
+    - placement record of 2014-15
+
+- intent : placement_record_of_2015_16
+  examples: |
+    - placement record of 2015-16
+
+- intent : placement_record_of_2016_17
+  examples: |
+    - placement record of 2013-14
+
+- intent : placement_record_of_2017_18
+  examples: |
+    - placement record of 2017-18
+
+- intent: end
+  examples: |
+    - okay
+    - all right
+    - thanks
+    - great
+    - it's sounds good
