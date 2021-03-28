@@ -2,6 +2,22 @@ version: "2.0"
 
 stories:
 
+- story: new user story
+  steps:
+    - intent: start
+    - action: utter_choice
+    - intent: new_user
+    - action: utter_createnewuser
+
+
+- story: existing user story
+  steps:
+    - intent: start
+    - action: utter_choice
+    - intent: existing_user
+    - action: utter_existinguser
+
+
 - story: happy tpo information path
   steps:
   - intent: tpo_information

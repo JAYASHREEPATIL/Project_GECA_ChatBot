@@ -41,6 +41,9 @@ intents:
   - placement_record_of_2016_17
   - placement_record_of_2017_18
   - end
+  - start
+  - exisitng_user
+  - new_user
 
 
 responses:
@@ -203,6 +206,17 @@ responses:
   utter_end:
   - text: "It's my pleasure! Happy to help you :)"
 
+  utter_choice:
+  - text: "New user or existing user ?"
+
+  utter_createnewuser:
+  - text: "enter username and password"
+  - text: "retype password"
+
+  utter_existinguser:
+  - text: "enter username and password to login"
+
+
 
 session_config:
   session_expiration_time: 60
@@ -242,4 +256,7 @@ actions :
     - utter_placement_record_of_2016_17
     - utter_placement_record_of_2017_18
     - utter_end
+    - utter_choice
+    - utter_createnewuser
+    - utter_existinguser
 

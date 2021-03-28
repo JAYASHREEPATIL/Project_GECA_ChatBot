@@ -274,3 +274,27 @@ nlu:
     - thanks
     - great
     - it's sounds good
+
+
+- intent: start
+  examples: |
+    - I want to login
+    - login
+    - sign in
+    - get details
+
+
+- intent: new_user
+  examples: |
+    - new user
+    - new
+    - 1
+
+- intent: existing_user
+  examples: |
+    - existing user
+    - existing
+    - old
+    - 2
+
+
