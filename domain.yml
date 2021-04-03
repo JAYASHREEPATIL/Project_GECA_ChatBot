@@ -179,17 +179,214 @@ responses:
   utter_placement_record_of_2017_18:
   - text: "here is that http://tpo.geca.ac.in/PlacementRecords2017-18.aspx/"
 
+#Lirary Responses
+
+  utter_LibrianName:
+  - text: " XYZ"
+
+  utter_BookDatabase:
+  - text: " To find Database from the the  Library home page:
+            Click on Databases by Title (A-Z) (near the center of the screen). This will take you to the entire list of the  library's databases, where you will find a link to Books 24x7.
+            If you are prompted to login, use the same user name and password you use for your  classes.
+            Need more help? Contact us."
 
 
-  utter_choice:
-  - text: "New user or existing user ?"
 
-  utter_createnewuser:
-  - text: "enter username and password"
-  - text: "retype password"
+  utter_BookType:
+  - text: " Varieties of publications are available.. such as Teaching and Teacher Education , Review of Educational Research.
+            British Journal of Education Technology, Studies in Higher Education."
 
-  utter_existinguser:
-  - text: "enter username and password to login"
+  utter_libBarcode:
+  - text: " You can find it the Library card and barcode number."
+
+
+  utter_LibTime:
+  - text: " Library opening time :- 10.30 AM
+            Library closing time. :- 5.30 PM"
+
+  utter_LibLocation:
+  - text: "Library Location :-Near the College Auditorium"
+
+  utter_LibFacility:
+  - text: " Geca library aims at providing access to its printed resources such as books and journals as well
+            as electronic journals and online database."
+
+  utter_LibDownload:
+  - text: " Yes, You can download the Books/ Pdf from the Database any time as yow want."
+
+  utter_OnlineAccess:
+  - text: " Visit to the Student Learning Resources in College website and access or download the book/pdf."
+
+  utter_BookIssue:
+  - text: " Each student can issue only Five Books on his/her account."
+
+  utter_classReading:
+  - text: " You can access your class reading books online from student learning resources.
+             or offline from college library."
+
+  utter_UploadBook:
+  - text: " Yes , you can upload or download the book online."
+
+
+  utter_LibDepartment:
+  - text: " Please Select Department..."
+    buttons:
+      - title: Mechanical Department
+        payload: "/mech"
+      - title: Civil Department
+        payload: "/civil"
+      - title: Computer Department
+        payload: "/cse"
+      - title: Electrical Department
+        payload: "/electrical"
+      - title: Electronic Department
+        payload: "/entc"
+
+  utter_mech:
+   - text: " Mechanical Department Students can visit the library on Day:- Monday. Between 10.30 am to 5.30 pm."
+
+  utter_civil:
+  - text: " Civil Department Students can visit the library on Day:- Tuesday. Between 10.30 am to 5.30 pm."
+
+  utter_cse:
+  - text: " Computer Department Students can visit the library on Day:- Wednesday. Between 10.30 am to 5.30 pm."
+
+  utter_electrical:
+  - text: " Electrical Department Students can visit the library on Day:- Thursday. Between 10.30 am to 5.30 pm."
+
+  utter_entc:
+  - text: " Electronic and Telecommunication Department Students can visit the library on Day:- Friday. Between 10.30 am to 5.30 pm."
+
+  utter_onlineBook:
+  - text: " Books are available both online or offline. As your comfort you can use it."
+
+
+  utter_studentLib:
+  - text: " student library time between 10.30 am to 1.00 pm
+            2.00 pm to 5.30 pm."
+
+
+  utter_FacultyTime:
+  - text: " Faculty/Teacher can visit to library any time."
+
+
+  utter_findJA:
+  - text: " Please see Journal and Articles from Student Learning resources.
+            You can access the Journal and Article."
+
+  utter_requestBook:
+  - text: " You can request a book from library by using your Library Card Id Number.
+             Book is assign to particular user using barcode."
+
+
+  utter_RCL:
+  - text: " Student, faculty, and staff may schedule an appointment with a librarian for one-on-one
+            assistance in finding relevant information for research papers."
+
+
+  utter_LibNo:
+  - text: " Library Contact No. - 9999999999"
+
+  utter_LibInternet:
+  - text: " All time Internet Facility in library."
+
+
+  utter_NewsPaper:
+  - text: " Yes Various News Papers are available for students.
+            Example:- Times, Century Old Time , Franklin Gothic"
+
+
+
+  utter_dueDate:
+  - text: " Yes, If you do not renew the book within one month then particular charges is applied."
+
+
+  utter_RenewBook:
+  - text: " It is mandatory to renew the book within the one month."
+
+
+  utter_guestLib:
+  - text: " There is no membership for the guest/visitors in the library."
+
+  utter_LibHour:
+  - text: " Library open at morning 10.30 Am.
+            close at evening 5.30 pm."
+
+
+
+  utter_LibEmail:
+  - text: " Library Email:- academics3@geca.ac.in"
+
+
+  utter_LibStudyRoom:
+  - text: "Study Room is available for all student without any reservation."
+
+
+  utter_LibResource:
+  - text: " There is a Librarian who helps in finding the resources."
+
+
+  utter_CheckOutBook:
+  - text: " Take your Library Card and the book(s) you want to check out to the Access & Instruction Desk on the first floor of the library. A staff member there will scan your card, check out the books to your account, and stamp the due dates into the books.
+          "
+
+  utter_LibRegistration:
+  - text:  " For freshers, the following items are required for Library Registration:
+             1)Clearance form from the college.
+             2)Payment receipt(s)
+             3)2 recent passport  photographs
+             4)Registration number
+             Registration is done at the beginning of each session for all students.
+            To renew your Library Registration, you need to produce:
+             1)Your old Library ticket
+             2)School fees payment receipt(s)
+             3)Confirmation of your studentship by your HOD"
+
+
+
+  utter_bookLoc:
+  - text: "To locate a book in the library, use the library's website to search for the title, author, or keyword. Once you find the book online, click on its title to access the location, call number, and status.
+           ....
+           If you want the Hard Copy of book you can visit to the Library and find the books in particular Department Rack."
+
+
+
+  utter_LibEntry:
+  - text: " It is compulsory to enter your library (id) number to software  before enter into the library and exit from the library"
+
+  utter_ExtraPay:
+  - text:  " No charge for the books."
+
+  utter_LibCard:
+  - text: " Each students gets maximum Five Library Card.You can Issue only one book from one card."
+
+
+  utter_CardLoss:
+  - text: "You may also report your card loss or stolen in person of the library. Also you can replace your library card by completing a
+            new application and bringing it(with ID and proof of address) to the library for no charge."
+
+
+  utter_VisitLab:
+  - text: " Student can visit the library Daily for study. but he/she can borrow/return books
+            only two times in per week."
+
+
+
+  utter_borrowBook:
+  - text: " Any Geca Institution staff member with a ID can apply for a library borrowers card.
+            Please complete a Borrowing Registration/Authorization form."
+
+
+
+  utter_RequestMaterial:
+  - text: " Visiting to the library in-person is not convenient, please complete an online request form.
+            Fill out as much information as possible about the article or book title you want."
+
+
+  utter_returnBook:
+  - text: " After the End Semester Exam is finish. Kindly return the Books of Library."
+
+
 
 
 
@@ -232,4 +429,49 @@ actions :
     - utter_placement_record_of_2017_18
     - utter_end
     - utter_start
+    - utter_LibrianName
+    - utter_BookDatabase
+    - utter_BookType
+    - utter_libBarcode
+    - utter_LibTime
+    - utter_LibLocation
+    - utter_LibFacility
+    - utter_LibDownload
+    - utter_OnlineAccess
+    - utter_BookIssue
+    - utter_classReading
+    - utter_UploadBook
+    - utter_LibDepartment
+    - utter_onlineBook
+    - utter_studentLib
+    - utter_FacultyTime
+    - utter_findJA
+    - utter_requestBook
+    - utter_RCL
+    - utter_LibNo
+    - utter_LibInternet
+    - utter_NewsPaper
+    - utter_dueDate
+    - utter_RenewBook
+    - utter_guestLib
+    - utter_LibHour
+    - utter_LibEmail
+    - utter_LibStudyRoom
+    - utter_LibResource
+    - utter_CheckOutBook
+    - utter_LibRegistration
+    - utter_bookLoc
+    - utter_LibEntry
+    - utter_ExtraPay
+    - utter_LibCard
+    - utter_CardLoss
+    - utter_VisitLab
+    - utter_borrowBook
+    - utter_RequestMaterial
+    - utter_returnBook
+    - utter_mech
+    - utter_civil
+    - utter_electrical
+    - utter_cse
+    - utter_entc
 
