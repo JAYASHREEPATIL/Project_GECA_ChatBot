@@ -16,6 +16,7 @@ nlu:
     - which one is the TPO of your college?
     - give me information about TPO
     - who is the placement officer?
+    - TPO
 
 - intent: tpo_contact
   examples: |
@@ -23,6 +24,7 @@ nlu:
     - how to contact TPO?
     - Show me TPO contact details
     - give me email-id of TPO
+    - contact TPO
     - give me mobile no of TPO
 
 - intent: tpo_meet
@@ -62,6 +64,7 @@ nlu:
   examples: |
     - do you have placement for MNCs?
     - do your college offer placement for MNCs?
+    - MNCs
 
 - intent: placement_non_core_branch
   examples: |
@@ -165,6 +168,7 @@ nlu:
     - can you please give me placement records
     - can i get history of placement
     - previous year placement data
+    - placement records
 
 - intent : placement_record_of_2013_14
   examples: |
@@ -186,6 +190,274 @@ nlu:
   examples: |
     - placement record of 2017-18
 
+
+#Lirary intent
+- intent: Lib1
+  examples: |
+    - Name of library reference help service?
+    - Name of library Master?
+    - May I know Library Incharge?
+    - Who is the library Incharge?
+
+- intent: Lib2
+  examples: |
+    - Where do I find the Books Database?
+    - book Database?
+    - how to Search the book database?
+    - How to check whether a book is available or not?
+    - How to get info of books
+
+- intent: Lib3
+  examples: |
+    - Which types of books are available?
+    - What are different types of books?
+    - type of book?
+    - Varieties of books?
+
+- intent: Lib4
+  examples: |
+    - Where do I find my library Barcode number?
+    - How do I get a barcode number for the library?
+    - Barcode number?
+
+- intent: Lib5
+  examples: |
+    - opening time for the library?
+    - closing time for the library?
+    - Timing of the library?
+
+- intent: Lib6
+  examples: |
+    - Where is the library located on campus?
+    - please give me a library location?
+    - library location?
+    - how do I find the library?
+
+- intent: Lib7
+  examples: |
+    - what facility library was provided?
+    - what are the services of the library?
+    - library services?
+    - library facility?
+
+- intent: Lib8
+  examples: |
+    - May I download the pdf from the library database?
+    - can I download the pdf or book?
+    - can I download the reference book?
+    - download the book or pdf?
+
+- intent: Lib9
+  examples: |
+    - how can I access the online book or pdf?
+    - how can I get the reference book?
+    - is the book available online?
+    - How do I find e-book?
+
+- intent: Lib10
+  examples: |
+    - How many books can a student issue?
+    - No. of book students get?
+    - how many books each student gets?
+    - No. of book access per student?
+
+- intent: Lib11
+  examples: |
+    - How do I find my reading for class?
+    - how do I find the books?
+    - how can I access my class subject books?
+
+- intent: Lib12
+  examples: |
+    - May I download a pdf or book online and upload it to my classroom?
+    - can I upload the books to the classroom?
+    - upload a book?
+
+- intent: Lib13
+  examples: |
+    - What is the library time for the Department?
+    - Time or day for the mechanical Department?
+    - Time  or day for the Electrical Department?
+    - Time or day in the Computer Department?
+    - Time or day for the Civil Department?
+    - Time or day for the IT / information Technolog
+
+- intent: Lib14
+  examples: |
+    - Books available online or offline?
+    - Do books are online or offline?
+
+- intent: Lib15
+  examples: |
+    - Student time for the library?
+    - Between what time library is available for students?
+    - Library time for the student?
+
+- intent: Lib16
+  examples: |
+    - Faculty/Teacher time for the library?
+    - Between what time library is available for Faculty / Teacher?
+    - Library time for the Faculty/ Teacher?
+
+- intent: Lib17
+  examples: |
+    - How can I find the journals?
+    - How can I find the article?
+    - I want the Journal
+    - Journal
+    - Article
+
+- intent: Lib18
+  examples: |
+    - How Do you request a book from a library catalog?
+    - How do I pick-up the book?
+    - how do I issue a book?
+    - what is the procedure for issuing a book?
+    - How can I get an offline book?
+
+- intent: Lib19
+  examples: |
+    - How do I request a research consultation with a librarian?
+
+- intent: Lib20
+  examples: |
+    - What is the library phone number?
+    - May I know the library number?
+    - How  do I contact the library?
+    - library contact number?
+    - library phone number?
+
+- intent: Lib21
+  examples: |
+    - Does the library have the internet?
+    - Is the library has wifi?
+    - Library has the internet / wifi facility.
+
+- intent: Lib22
+  examples: |
+    - Is a paper available in the library?
+    - Which newspaper paper is available ?
+    - What are the different newspapers in the library?
+    - News paper
+
+- intent: Lib23
+  examples: |
+    - Is there any due date for books?
+    - Is there any charge for books late?
+    - late fee
+    - how much did I pay for the late charge for the book?
+    - Is there any fine for late submission of books?
+
+- intent: Lib24
+  examples: |
+    - Is any renovation policy?
+    - Duration for renewal of book?
+    - After how many days renew the book?
+    - renew book?
+
+- intent: Lib25
+  examples: |
+    - Can a guest use the library?
+    - can an alumni use the library?
+    - how can a guest use the library?
+    - how can an alumni use a library?
+    - can a guest enter the library?
+    - guests use the library?
+
+- intent: Lib26
+  examples: |
+    - what is the hour of the library?
+    - Is the library still open?
+    - what is the working hour of the library?
+
+- intent: Lib27
+  examples: |
+    - Can you give me the email of the library?
+    - what is the email of the library?
+    - email of library
+    - may I know the email of the library?
+
+- intent: Lib28
+  examples: |
+    - How do I reserve a study room in the library?
+    - reserve a library study room.
+    - study room reserves in the library?
+
+- intent: Lib29
+  examples: |
+    - how do I find the resource library guide?
+    - resource guide for library?
+    - find the resource guide for the library?
+- intent: Lib30
+  examples: |
+    - How can I check out a book?
+    - how can I check out a book from the library?
+    - checking out books from the library?
+- intent: Lib31
+  examples: |
+    - what is the procedure of library registration?
+    - how do I enroll for the library?
+    - how do I get library access?
+    - library registration
+    - library access
+- intent: Lib32
+  examples: |
+    - where are the books?
+    - where are all books?
+    - where can I find the book?
+    - location of book?
+- intent: Lib33
+  examples: |
+    - How do I enter the library?
+    - entry in library?
+    - exit library
+    - How do I Exit the library
+- intent: Lib34
+  examples: |
+    - Is extra pay for the library?
+    - extra charges for library books?
+    - can I access the free book from the library?
+- intent: Lib35
+  examples: |
+    - How many Library cards get to each student?
+    - library card per student?
+    - No. of library cards get the student?
+- intent: Lib36
+  examples: |
+    - If I lose the library card?
+    - loss library card?
+    - how do I get the new library card?
+    - how do I request for the new card?
+- intent: Lib37
+  examples: |
+    - How often  can you visit the library per week?
+    - visit the library per week?
+- intent: Lib38
+  examples: |
+    - who can borrow books from the library?
+    - borrow books from the library?
+- intent: Lib39
+  examples: |
+    - how do I request materials not held by the library?
+- intent: Lib40
+  examples: |
+    - When will I return the book?
+    - time to return the book?
+    - when the student returns the library book.
+    - return book.
+- intent: mech
+  examples: |
+- intent: cse
+  examples: |
+- intent: electrical
+  examples: |
+- intent: entc
+  examples: |
+- intent: civil
+  examples: |
+
+
+#end part
 - intent: end
   examples: |
     - okay
