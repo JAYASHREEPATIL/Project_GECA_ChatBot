@@ -17,7 +17,7 @@ $ git push
 
 ## for push data from your system on git repo:
 ### follow below process:
-#### => see status of your system so, you know what are the changes you have done: command :->      
+#### => see the status of your system so, you know what are the changes you have done: command :->      
 $ git status
 #### => then add required files one by one : commnad :-> 
 $ git add "file name which u want to add"
