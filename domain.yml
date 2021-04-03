@@ -387,6 +387,125 @@ responses:
   - text: " After the End Semester Exam is finish. Kindly return the Books of Library."
 
 
+#Hostel responses
+  utter_Hostel:
+  - text: "Total four Hostel in this College.."
+
+  utter_boysHostel:
+  - text: " total two boys Hostel"
+
+  utter_girlHostel:
+  - text: " total two girls hostel old and new."
+  utter_Hostelf:
+  - text: " Good Mess , Fresh Food , Wi-Fi, Canteen, CC-TV Camera."
+
+  utter_messFood:
+  - text: " Vegetarian , Good quality, hygienic, full of nutrition."
+
+  utter_foodChart:
+  - text: " Yes, it follows the food chart for Breakfast,Lunch, Evening Snacks and Dinner."
+
+  utter_mobile:
+  - text: " Yes , mobile are allow in the hostel for only study purpose"
+
+  utter_parent:
+  - text: " 6.00 am to 8.00 am and evening 6.00 pm to 9.00 pm"
+
+  utter_medical:
+  - text: " We have 24 hours. first Aid Medical facility and our nursing staff every tuesday visit to hostel"
+
+  utter_HosName:
+  - text: " A , B , C, D are the name of Hostels"
+
+  utter_hosFee:
+  - text: " for Category students hostel fee is 1650 rs. per year. and general students it is 2500 rs."
+
+  utter_both:
+  - text: " Yes Hostel is provided for both girls as well as boys."
+
+  utter_skillcourse:
+  - text: " Yes , we are providing a skill courses like yoga, meditation, soft-skills etc."
+
+  utter_covid:
+  - text: " Provision for thermal scanning, hand wash, and sanitizer is done at entry and exit point
+            and common areas. Frequent sanitization of the entire hostel, common facilities, and all points which come into
+            human contact. Wearing of face cover is compulsory for all."
+
+  utter_fitness:
+  - text: " Apart from Gym and Evening sports, we give special focus on Yoga and Meditation. These session are regularly
+            organized by the experts."
+
+  utter_ragging:
+  - text: " Ragging of student in any form is strictly prohibited within and outside the campus.
+            An anti-ragging squad is always in operation under the overall charge of the Dean."
+
+  utter_visitCampus:
+  - text: " During this period of lockdown, you can virtually visit the campus using a 360 degree view option on the college
+            website. AS soon as the lockdown is lifted, you can visit the campus on any day between 8 am to 8 pm."
+
+  utter_RW:
+  - text: " Prof. Swami sir is rector for boys hostel and Prof. Injamuri mam is rector for girls hostel."
+
+  utter_capacity:
+  - text: " The Capacity for girls is 700 and boys is 1000."
+
+  utter_AC:
+  - text: " Only the Non-AC room for Hostelers."
+
+  utter_allotHostel:
+  - text: " allotment is on the basis of the merit list of each Department."
+
+  utter_accHostel:
+  - text: " We have accommodation with common bathrooms. "
+
+  utter_SHCapacity:
+  - text: " We have the two seater, three seater rooms in hostel."
+
+  utter_SepMess:
+  - text: " Yes, Hostel has the separate mess for girls and boys."
+
+  utter_infrastructure:
+  - text: " A basic bed , study table, chairs and cupboard is provided."
+
+  utter_VisitHome:
+  - text: " For Visiting to home Parents Application is sent to the Hostel via a Fax."
+
+  utter_raggingHostel:
+  - text: " Geca is a ragging free zone in hostel as well as in Campus. The different committees have been formulated for this purpose."
+  utter_VecHostel:
+  - text: " Yes, the hosteler can keep vehicle in the hostel with the written permission from the competent authority."
+
+  utter_secHostel:
+  - text: " Security Guard, Visit of hostel, Night Attendance."
+
+  utter_HelplineHostel:
+  - text: " Hostel-HelpLine -- 9999999999"
+
+  utter_hosLoc:
+  - text: " Geca hostel is located at Geca College In-front of Civil Department."
+
+  utter_ResWarden:
+  - text: " Yes, we have experienced full-time residential warden for each hostel."
+
+  utter_timmingMess:
+  - text: " Breakfast time = 8.00 am to 9.30 am.
+            Lunch time = 10.30 am to 1.30 pm.
+            Dinner time is 7.70 pm to 10.00 pm."
+
+  utter_RentMess:
+  - text: " Approximately the mess rent for per month is 2000 rs."
+
+  utter_hosATM:
+  - text: " Yes, In college campus there is a ATM Machine."
+
+  utter_studyRoom:
+  - text: " Hostel has the separate study Room for student"
+
+  utter_wifiHostel:
+  - text: " Hostel has the wifi facility. each student has the separate IP for a wifi."
+
+  utter_HostelHygenic:
+  - text: " Yes, Hostel is very hygienic. Cleaners daily clean the hostel."
 
 
 
@@ -474,4 +593,42 @@ actions :
     - utter_electrical
     - utter_cse
     - utter_entc
-
+    - utter_Lib
+    - utter_Hostel
+    - utter_medical
+    - utter_HosName
+    - utter_hosFee
+    - utter_both
+    - utter_skillcourse
+    - utter_covid
+    - utter_fitness
+    - utter_ragging
+    - utter_visitCampus
+    - utter_RW
+    - utter_capacity
+    - utter_AC
+    - utter_allotHostel
+    - utter_accHostel
+    - utter_SHCapacity
+    - utter_SepMess
+    - utter_infrastructure
+    - utter_VisitHome
+    - utter_raggingHostel
+    - utter_VecHostel
+    - utter_secHostel
+    - utter_HelplineHostel
+    - utter_hosLoc
+    - utter_ResWarden
+    - utter_timmingMess
+    - utter_RentMess
+    - utter_hosATM
+    - utter_studyRoom
+    - utter_wifiHostel
+    - utter_HostelHygenic
+    - utter_girlHostel
+    - utter_boysHostel
+    - utter_Hostelf
+    - utter_messFood
+    - utter_foodChart
+    - utter_mobile
+    - utter_parent
