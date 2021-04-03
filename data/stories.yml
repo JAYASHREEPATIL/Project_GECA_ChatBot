@@ -228,6 +228,89 @@ stories:
     - action: utter_entc
 
 
+#Hostel story
+- story:
+  steps:
+    - intent: Library
+    - action: utter_Lib
+    - intent: Hostel
+    - action: utter_Hostel
+    - intent: Hostel1
+    - action: utter_medical
+    - intent: Hostel2
+    - action: utter_HosName
+    - intent: Hostel3
+    - action: utter_hosFee
+    - intent: Hostel4
+    - action: utter_both
+    - intent: Hostel5
+    - action: utter_skillcourse
+    - intent: Hostel6
+    - action: utter_covid
+    - intent: Hostel7
+    - action: utter_fitness
+    - intent: Hostel8
+    - action: utter_ragging
+    - intent: Hostel9
+    - action: utter_visitCampus
+    - intent: Hostel10
+    - action: utter_RW
+    - intent: Hostel11
+    - action: utter_capacity
+    - intent: Hostel12
+    - action: utter_AC
+    - intent: Hostel13
+    - action: utter_allotHostel
+    - intent: Hostel14
+    - action: utter_accHostel
+    - intent: Hostel15
+    - action: utter_SHCapacity
+    - intent: Hostel16
+    - action: utter_SepMess
+    - intent: Hostel17
+    - action: utter_infrastructure
+    - intent: Hostel18
+    - action: utter_VisitHome
+    - intent: Hostel19
+    - action: utter_raggingHostel
+    - intent: Hostel20
+    - action: utter_VecHostel
+    - intent: Hostel21
+    - action: utter_secHostel
+    - intent: Hostel22
+    - action: utter_HelplineHostel
+    - intent: Hostel23
+    - action: utter_hosLoc
+    - intent: Hostel24
+    - action: utter_ResWarden
+    - intent: Hostel25
+    - action: utter_timmingMess
+    - intent: Hostel26
+    - action: utter_RentMess
+    - intent: Hostel27
+    - action: utter_hosATM
+    - intent: Hostel28
+    - action: utter_studyRoom
+    - intent: Hostel29
+    - action: utter_wifiHostel
+    - intent: Hostel30
+    - action: utter_HostelHygenic
+    - intent: Hostel31
+    - action: utter_girlHostel
+    - intent: Hostel32
+    - action: utter_boysHostel
+    - intent: Hostel33
+    - action: utter_Hostelf
+    - intent: Hostel34
+    - action: utter_messFood
+    - intent: Hostel35
+    - action: utter_foodChart
+    - intent: Hostel36
+    - action: utter_mobile
+    - intent: Hostel37
+    - action: utter_parent
+
+
 - story: end path
   steps:
     - intent: end
