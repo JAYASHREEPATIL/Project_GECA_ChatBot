@@ -1,13 +1,7 @@
 version: "2.0"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - start
   - tpo_information
   - tpo_contact
   - tpo_meet
@@ -41,33 +35,15 @@ intents:
   - placement_record_of_2016_17
   - placement_record_of_2017_18
   - end
-  - start
-  - exisitng_user
-  - new_user
+
 
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_start:
+  - text: "👋Hello\n I am GECA Bot,\n how can I help you 😊 "
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-
-
+  utter_end:
+  - text: "It's my pleasure😊\nHappy to help you ❤"
 
   utter_tpoinfo:
   - text: "prof. Shailesh Ambekar is TPO of our college."
@@ -203,8 +179,7 @@ responses:
   utter_placement_record_of_2017_18:
   - text: "here is that http://tpo.geca.ac.in/PlacementRecords2017-18.aspx/"
 
-  utter_end:
-  - text: "It's my pleasure! Happy to help you :)"
+
 
   utter_choice:
   - text: "New user or existing user ?"
@@ -256,7 +231,5 @@ actions :
     - utter_placement_record_of_2016_17
     - utter_placement_record_of_2017_18
     - utter_end
-    - utter_choice
-    - utter_createnewuser
-    - utter_existinguser
+    - utter_start
 
