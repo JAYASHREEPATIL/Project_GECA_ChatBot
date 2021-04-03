@@ -130,6 +130,104 @@ stories:
     - intent: placement_record_of_2017_18
     - action: utter_placement_record_of_2017_18
 
+
+
+#lirary Story
+
+- story: Library
+  steps:
+    - intent: Lib1
+    - action: utter_LibrianName
+    - intent: Lib2
+    - action: utter_BookDatabase
+    - intent: Lib3
+    - action: utter_BookType
+    - intent: Lib4
+    - action: utter_libBarcode
+    - intent: Lib5
+    - action: utter_LibTime
+    - intent: Lib6
+    - action: utter_LibLocation
+    - intent: Lib7
+    - action: utter_LibFacility
+    - intent: Lib8
+    - action: utter_LibDownload
+    - intent: Lib9
+    - action: utter_OnlineAccess
+    - intent: Lib10
+    - action: utter_BookIssue
+    - intent: Lib11
+    - action: utter_classReading
+    - intent: Lib12
+    - action: utter_UploadBook
+    - intent: Lib13
+    - action: utter_LibDepartment
+    - intent: Lib14
+    - action: utter_onlineBook
+    - intent: Lib15
+    - action: utter_studentLib
+    - intent: Lib16
+    - action: utter_FacultyTime
+    - intent: Lib17
+    - action: utter_findJA
+    - intent: Lib18
+    - action: utter_requestBook
+    - intent: Lib19
+    - action: utter_RCL
+    - intent: Lib20
+    - action: utter_LibNo
+    - intent: Lib21
+    - action: utter_LibInternet
+    - intent: Lib22
+    - action: utter_NewsPaper
+    - intent: Lib23
+    - action: utter_dueDate
+    - intent: Lib24
+    - action: utter_RenewBook
+    - intent: Lib25
+    - action: utter_guestLib
+    - intent: Lib26
+    - action: utter_LibHour
+    - intent: Lib27
+    - action: utter_LibEmail
+    - intent: Lib28
+    - action: utter_LibStudyRoom
+    - intent: Lib29
+    - action: utter_LibResource
+    - intent: Lib30
+    - action: utter_CheckOutBook
+    - intent: Lib31
+    - action: utter_LibRegistration
+    - intent: Lib32
+    - action: utter_bookLoc
+    - intent: Lib33
+    - action: utter_LibEntry
+    - intent: Lib34
+    - action: utter_ExtraPay
+    - intent: Lib35
+    - action: utter_LibCard
+    - intent: Lib36
+    - action: utter_CardLoss
+    - intent: Lib37
+    - action: utter_VisitLab
+    - intent: Lib38
+    - action: utter_borrowBook
+    - intent: Lib39
+    - action: utter_RequestMaterial
+    - intent: Lib40
+    - action: utter_returnBook
+    - intent: mech
+    - action: utter_mech
+    - intent: civil
+    - action: utter_civil
+    - intent: electrical
+    - action: utter_electrical
+    - intent: cse
+    - action: utter_cse
+    - intent: entc
+    - action: utter_entc
+
+
 - story: end path
   steps:
     - intent: end
