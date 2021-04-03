@@ -456,6 +456,247 @@ nlu:
 - intent: civil
   examples: |
 
+#Hostel intent
+- intent: Library
+  examples: |
+    - What is the opening time for Library?
+    - what is the closing time for Library?
+
+- intent: Hostel
+  examples: |
+    - How many hostels are there in this college?
+
+
+- intent: Hostel1
+  examples: |
+    - What about the medical facilities in the hostel?
+    - When the medical-check up is done?
+    - When the doctors come to the hostel for checkup?
+    - Is any health related issue checked in the hostel?
+    - Timing for doctors' visit to a hostel?
+
+
+- intent: Hostel2
+  examples: |
+    - Name of the College Hostel.
+    - Can you please tell me the name of the government hostel?
+    - Does College have the hostel?
+    - May I know the hostel name?
+    - Can you give me hostel info?
+
+
+- intent: Hostel3
+  examples: |
+    - What is the fee for hostel admission per year?
+    - How much do you spend in hostel per year?
+    - hostel fees
+    - fee structure for hostel?
+
+
+- intent: Hostel4
+  examples: |
+    - Is this hostel for boys and girls both?
+    - The hostel is separate for boys and girls?
+
+
+- intent: Hostel5
+  examples: |
+    - Are you conducting any skill courses for hostellers?
+    - which program is celebrated in the hostel?
+    - Which activities are held in the hostel?
+    - Do you have any activities in the hostel?
+
+
+- intent: Hostel6
+  examples: |
+    - Any provision is looking at covid-19 pandemic?
+    - How do you manage the hostel work in covid?
+    - What about covid situation in the hostel?
+
+
+- intent: Hostel7
+  examples: |
+    - what are the fitness activities for hostellers?
+    - how do the students fit in the hostel?
+    - health related action
+
+
+- intent: Hostel8
+  examples: |
+    - Do you have an anti-ragging committee?
+    - is hostel ragging free?
+    - how is the hostel ragging free?
+    - if any ragging is done in the hostel?
+
+
+- intent: Hostel9
+  examples: |
+    -  When I can visit the campus and hostel?
+    - how do I visit the campus and hostel?
+    - Can a guest visit the hostel campus?
+
+
+- intent: Hostel10
+  examples: |
+    - Who is the Rector / Warden of the hostel?
+    - who is the warden?
+    - name of rector?
+    - name of warden?
+    - may I know the rector and warden?
+
+
+- intent: Hostel11
+  examples: |
+    - What is the capacity for a hostel for girls and boys?
+
+
+- intent: Hostel12
+  examples: |
+    - Are there A/C and Non A/c rooms for hostellers?
+    - Does the hostel have an AC facility?
+
+
+- intent: Hostel13
+  examples: |
+    - What is the Process of allotment of a seat?
+    - how to enroll for a hostel?
+    - how do I get admission in a hostel?
+    - Is the hostel for all students?
+
+
+- intent: Hostel14
+  examples: |
+    - Do you have hostel accomodation along with a bathroom?
+
+
+- intent: Hostel15
+  examples: |
+    - What is the sharing capacity of a room?
+    - how many girls are in the room?
+    - how many boys are in the room?
+    - sharing capacity of room?
+
+
+- intent: Hostel16
+  examples: |
+    - Do you have separate messes for girls and boys?
+
+
+- intent: Hostel17
+  examples: |
+    - What type of basic infrastructure has been provided to the hostellers?
+
+
+- intent: Hostel18
+  examples: |
+    - What is the system or process for hostellers to visit their hometown?
+    - how do students visit home?
+
+- intent: Hostel19
+  examples: |
+    - What about ragging in the hostel?
+
+- intent: Hostel20
+  examples: |
+    - Can the hosteller keep a vehicle in the hostel?
+    - can hostellers use their own vehicle?
+    - hostel gives permission for vehicle?
+
+- intent: Hostel21
+  examples: |
+    - What about the security of our students who are in the hostel?
+    - Is there any security in the hostel?
+
+- intent: Hostel22
+  examples: |
+    - Do you have the Helpline no for hostel?
+    - share the hostel number?
+    - hostel helpline?
+    - how do I contact the hostel for any query?
+    - hostel contact
+
+- intent: Hostel23
+  examples: |
+    - Where is the girls and boys hostel located?
+    - hostel location?
+
+- intent: Hostel24
+  examples: |
+    - Do you have a full time residential warden?
+    - Is the warden living in a hostel?
+    - Is the hostel has the warden round?
+
+- intent: Hostel25
+  examples: |
+    - What is the timing for hostel mess?
+    - when the mess starts?
+    - breakfast time?
+    - lunch time?
+    - dinner time?
+
+- intent: Hostel26
+  examples: |
+    - what is the rent of a mess per month?
+    - mess price
+    - How many rs for mess?
+
+
+- intent: Hostel27
+  examples: |
+    - Is hostel has ATM facility?
+    - ATM
+
+- intent: Hostel28
+  examples: |
+    - Is Hostel have a study room?
+    - how do I study in a hostel?
+    - Is any noise free place in the hostel?
+    - Does the hostel have the study space?
+
+- intent: Hostel29
+  examples: |
+    - Is Hostel have a wifi facility?
+    - What about the internet facility in hostels?
+    - hostel has the Internet?
+    - Is the internet provided in the hostel?
+
+
+- intent: Hostel30
+  examples: |
+    - Is the hostel is Hygenic?
+    - hostel is clean?
+    - hostel clean daily?
+    - how do you keep our hostel clean?
+
+
+- intent: Hostel31
+  examples: |
+    - how many hostels are there for the girls?
+
+- intent: Hostel32
+  examples: |
+    - how many hostels are for boys?
+
+- intent: Hostel33
+  examples: |
+    - what are features provided by Geca Hostel.
+
+- intent: Hostel34
+  examples: |
+    - what kind of food is provided in the mess?
+
+- intent: Hostel35
+  examples: |
+    - Does the mess follow a food chart:
+
+- intent: Hostel36
+  examples: |
+    - whether mobile is allowed in Hostel?
+
+- intent: Hostel37
+  examples: |
+    - What are the visiting hrs. in the hostel for parents?
+
 
 #end part
 - intent: end
