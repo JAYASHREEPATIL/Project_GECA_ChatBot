@@ -34,6 +34,37 @@ intents:
   - placement_record_of_2015_16
   - placement_record_of_2016_17
   - placement_record_of_2017_18
+  - exam
+  - CSE
+  - IT
+  - ENTC
+  - ELE
+  - MECH
+  - CSL
+  - FE_CSE
+  - SE_CSE
+  - TE_CSE
+  - BE_CSE
+  - FE_IT
+  - SE_IT
+  - TE_IT
+  - BE_IT
+  - FE_ENTC
+  - SE_ENTC
+  - TE_ENTC
+  - BE_ENTC
+  - FE_ELE
+  - SE_ELE
+  - TE_ELE
+  - BE_ELE
+  - FE_MECH
+  - SE_MECH
+  - TE_MECH
+  - BE_MECH
+  - FE_CSL
+  - SE_CSL
+  - TE_CSL
+  - BE_CSL
   - end
 
 
@@ -164,6 +195,152 @@ responses:
       - title: "Placement Record of 2017-18"
         payload: "/placement_record_of_2017_18"
 
+  utter_exam:
+  - text: "Please select your branch"
+    buttons:
+      - title: "Computer Science and Engineering"
+        payload: "/CSE"
+      - title: "Information Technology"
+        payload: "/IT"
+      - title: "Electronics and Telecommunication"
+        payload: "/ENTC"
+      - title: "Electrical"
+        payload: "/ELE"
+      - title: "Mechanical"
+        payload: "/MECH"
+      - title: "Civil"
+        payload: "/CSL"
+ #CSE
+  utter_CSE:
+  - text: "Please select your Year "
+    buttons:
+      - title: "FE-CSE"
+        payload: "/FE_CSE"
+      - title: "SE-CSE"
+        payload: "/SE_CSE"
+      - title: "TE-CSE"
+        payload: "TE_CSE"
+      - title: "BE-CSE"
+        payload: "/BE_CSE"
+
+  utter_FE_CSE:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_SE_CSE:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_TE_CSE:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_BE_CSE:
+  - text: "Your next exam will be as shown in pdf : "
+
+#IT
+  utter_IT:
+  - text: "Please select your Year "
+    buttons:
+      - title: "FE-IT"
+        payload: "/FE_IT"
+      - title: "SE-IT"
+        payload: "/SE_IT"
+      - title: "TE-IT"
+        payload: "TE_IT"
+      - title: "BE-IT"
+        payload: "/BE_IT"
+
+  utter_FE_IT:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_SE_IT:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_TE_IT:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_BE_IT:
+  - text: "Your next exam will be as shown in pdf : "
+#ENTC
+  utter_ENTC:
+  - text: "Please select your Year "
+    buttons:
+      - title: "FE-ENTC"
+        payload: "/FE_ENTC"
+      - title: "SE-ENTC"
+        payload: "/SE_ENTC"
+      - title: "TE-ENTC"
+        payload: "TE_ENTC"
+      - title: "BE-ENTC"
+        payload: "/BE_ENTC"
+
+  utter_FE_ENTC:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_SE_ENTC:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_TE_ENTC:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_BE_ENTC:
+  - text: "Your next exam will be as shown in pdf : "
+#ELE
+  utter_ELE:
+  - text: "Please select your Year "
+    buttons:
+      - title: "FE-ELE"
+        payload: "/FE_ELE"
+      - title: "SE-ELE"
+        payload: "/SE_ELE"
+      - title: "TE-ELE"
+        payload: "TE_ELE"
+      - title: "BE-ELE"
+        payload: "/BE_ELE"
+
+  utter_FE_ELE:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_SE_ELE:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_TE_ELE:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_BE_ELE:
+  - text: "Your next exam will be as shown in pdf : "
+
+#MECH
+  utter_MECH:
+  - text: "Please select your Year "
+    buttons:
+      - title: "FE-MECH"
+        payload: "/FE_MECH"
+      - title: "SE-MECH"
+        payload: "/SE_MECH"
+      - title: "TE-MECH"
+        payload: "TE_MECH"
+      - title: "BE-MECH"
+        payload: "/BE_MECH"
+
+  utter_FE_MECH:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_SE_MECH:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_TE_MECH:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_BE_MECH:
+  - text: "Your next exam will be as shown in pdf : "
+#CSL
+  utter_CSL:
+  - text: "Please select your Year "
+    buttons:
+      - title: "FE-CSL"
+        payload: "/FE_CSL"
+      - title: "SE-CSL"
+        payload: "/SE_CSL"
+      - title: "TE-CSL"
+        payload: "TE_CSL"
+      - title: "BE-CSL"
+        payload: "/BE_CSL"
+
+  utter_FE_CSL:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_SE_CSL:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_TE_CSL:
+  - text: "Your next exam will be as shown in pdf : "
+  utter_BE_CSL:
+  - text: "Your next exam will be as shown in pdf : "
+
+
+
   utter_placement_record_of_2013_14:
   - text: " here is that:-) http://tpo.geca.ac.in/PlacementRecords2013-14.aspx/"
 
@@ -232,29 +409,29 @@ responses:
   - text: " Please Select Department..."
     buttons:
       - title: Mechanical Department
-        payload: "/mech"
+        payload: "/mech1"
       - title: Civil Department
         payload: "/civil"
       - title: Computer Department
-        payload: "/cse"
+        payload: "/cse1"
       - title: Electrical Department
         payload: "/electrical"
       - title: Electronic Department
-        payload: "/entc"
+        payload: "/entc1"
 
-  utter_mech:
+  utter_mech1:
    - text: " Mechanical Department Students can visit the library on Day:- Monday. Between 10.30 am to 5.30 pm."
 
   utter_civil:
   - text: " Civil Department Students can visit the library on Day:- Tuesday. Between 10.30 am to 5.30 pm."
 
-  utter_cse:
+  utter_cse1:
   - text: " Computer Department Students can visit the library on Day:- Wednesday. Between 10.30 am to 5.30 pm."
 
   utter_electrical:
   - text: " Electrical Department Students can visit the library on Day:- Thursday. Between 10.30 am to 5.30 pm."
 
-  utter_entc:
+  utter_entc1:
   - text: " Electronic and Telecommunication Department Students can visit the library on Day:- Friday. Between 10.30 am to 5.30 pm."
 
   utter_onlineBook:
@@ -588,11 +765,11 @@ actions :
     - utter_borrowBook
     - utter_RequestMaterial
     - utter_returnBook
-    - utter_mech
+    - utter_mech1
     - utter_civil
     - utter_electrical
-    - utter_cse
-    - utter_entc
+    - utter_cse1
+    - utter_entc1
     - utter_Lib
     - utter_Hostel
     - utter_medical
@@ -632,3 +809,34 @@ actions :
     - utter_foodChart
     - utter_mobile
     - utter_parent
+    - utter_exam
+    - utter_CSE
+    - utter_IT
+    - utter_ENTC
+    - utter_ELE
+    - utter_MECH
+    - utter_CSL
+    - utter_FE_CSE
+    - utter_SE_CSE
+    - utter_TE_CSE
+    - utter_BE_CSE
+    - utter_FE_IT
+    - utter_SE_IT
+    - utter_TE_IT
+    - utter_BE_IT
+    - utter_FE_ENTC
+    - utter_SE_ENTC
+    - utter_TE_ENTC
+    - utter_BE_ENTC
+    - utter_FE_ELE
+    - utter_SE_ELE
+    - utter_TE_ELE
+    - utter_BE_ELE
+    - utter_FE_MECH
+    - utter_SE_MECH
+    - utter_TE_MECH
+    - utter_BE_MECH
+    - utter_FE_CSL
+    - utter_SE_CSL
+    - utter_TE_CSL
+    - utter_BE_CSL

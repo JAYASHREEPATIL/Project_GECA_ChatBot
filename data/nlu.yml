@@ -445,13 +445,13 @@ nlu:
     - time to return the book?
     - when the student returns the library book.
     - return book.
-- intent: mech
+- intent: mech1
   examples: |
-- intent: cse
+- intent: cse1
   examples: |
 - intent: electrical
   examples: |
-- intent: entc
+- intent: entc1
   examples: |
 - intent: civil
   examples: |
@@ -697,6 +697,158 @@ nlu:
   examples: |
     - What are the visiting hrs. in the hostel for parents?
 
+- intent: exam
+  examples: |
+    - when is my next exam?
+    - exam
+    - next exam
+    - can you tell me about my class test?
+    - when will be my next examination
+    - examination
+    - when we will be having our next CT?
+    - when we will be having our next examination?
+    - exam timetable
+    - can you show me my exam timetable
+    - show me my exam timetable
+    - next exam timetable
+- intent: CSE
+  examples: |
+     - CSE exams
+     - CSE examinations
+- intent: IT
+  examples: |
+     - IT exams
+     - IT examinations
+- intent: ENTC
+  examples: |
+     - ENTC exams
+     - ENTC examinations
+- intent: ELE
+  examples: |
+     - ELE exams
+     - ELE examinations
+- intent: MECH
+  examples: |
+     - MECH exams
+     - MECH examinations
+- intent: CSL
+  examples: |
+     - CSL exams
+     - CSL examinations
+
+- intent: FE_CSE
+  examples: |
+     - FE_CSE exams
+     - FE_CSE examinations
+- intent: SE_CSE
+  examples: |
+     - SE_CSE exams
+     - SE_CSE examinations
+- intent: TE_CSE
+  examples: |
+     - TE_CSE exams
+     - TE_CSE examinations
+- intent: BE_CSE
+  examples: |
+     - BE_CSE exams
+     - BE_CSE examinations
+
+- intent: FE_IT
+  examples: |
+     - FE_IT exams
+     - FE_IT examinations
+- intent: SE_IT
+  examples: |
+     - SE_IT exams
+     - SE_IT examinations
+- intent: TE_IT
+  examples: |
+     - TE_IT exams
+     - TE_IT examinations
+- intent: BE_IT
+  examples: |
+     - BE_IT exams
+     - BE_IT examinations
+
+- intent: FE_ENTC
+  examples: |
+     - FE_ENTC exams
+     - FE_ENTC examinations
+- intent: SE_ENTC
+  examples: |
+     - SE_ENTC exams
+     - SE_ENTC examinations
+- intent: TE_ENTC
+  examples: |
+     - TE_ENTC exams
+     - TE_ENTC examinations
+- intent: BE_ENTC
+  examples: |
+     - BE_ENTC exams
+     - BE_ENTC examinations
+
+- intent: FE_ELE
+  examples: |
+     - FE_ELE exams
+     - FE_ELE examinations
+- intent: SE_ELE
+  examples: |
+     - SE_ELE exams
+     - SE_ELE examinations
+- intent: TE_ELE
+  examples: |
+     - TE_ELE exams
+     - TE_ELE examinations
+- intent: BE_ELE
+  examples: |
+     - BE_ELE exams
+     - BE_ELE examinations
+
+- intent: FE_MECH
+  examples: |
+     - FE_MECH exams
+     - FE_MECH examinations
+- intent: SE_MECH
+  examples: |
+     - SE_MECH exams
+     - SE_MECH examinations
+- intent: TE_MECH
+  examples: |
+     - TE_MECH exams
+     - TE_MECH examinations
+- intent: BE_MECH
+  examples: |
+     - BE_MECH exams
+     - BE_MECH examinations
+
+- intent: FE_CSL
+  examples: |
+     - FE_CSL exams
+     - FE_CSL examinations
+- intent: SE_CSL
+  examples: |
+     - SE_CSL exams
+     - SE_CSL examinations
+- intent: TE_CSL
+  examples: |
+     - TE_CSL exams
+     - TE_CSL examinations
+- intent: BE_CSL
+  examples: |
+     - BE_CSL exams
+     - BE_CSL examinations
+
+
+
+
+
+
+
+
+
+
+
+
 
 #end part
 - intent: end
@@ -706,5 +858,6 @@ nlu:
     - thanks
     - great
     - it's sounds good
+    - bye
 
 

@@ -216,16 +216,16 @@ stories:
     - action: utter_RequestMaterial
     - intent: Lib40
     - action: utter_returnBook
-    - intent: mech
-    - action: utter_mech
+    - intent: mech1
+    - action: utter_mech1
     - intent: civil
     - action: utter_civil
     - intent: electrical
     - action: utter_electrical
-    - intent: cse
-    - action: utter_cse
-    - intent: entc
-    - action: utter_entc
+    - intent: cse1
+    - action: utter_cse1
+    - intent: entc1
+    - action: utter_entc1
 
 
 #Hostel story
@@ -310,6 +310,135 @@ stories:
     - intent: Hostel37
     - action: utter_parent
 
+- story: exam path
+  steps:
+    - intent: exam
+    - action: utter_exam
+- story: CSE path
+  steps:
+    - intent: CSE
+    - action: utter_CSE
+- story: FE-CSE exam path
+  steps:
+    - intent: FE_CSE
+    - action: utter_FE_CSE
+- story: SE-CSE exam path
+  steps:
+    - intent: SE_CSE
+    - action: utter_SE_CSE
+- story: TE-CSE exam path
+  steps:
+    - intent: TE_CSE
+    - action: utter_TE_CSE
+- story: BE-CSE exam path
+  steps:
+    - intent: BE_CSE
+    - action: utter_BE_CSE
+
+- story: IT exam path
+  steps:
+    - intent: IT
+    - action: utter_IT
+- story: FE-IT exam path
+  steps:
+    - intent: FE_IT
+    - action: utter_FE_IT
+- story: SE-IT exam path
+  steps:
+    - intent: SE_IT
+    - action: utter_SE_IT
+- story: TE-IT exam path
+  steps:
+    - intent: TE_IT
+    - action: utter_TE_IT
+- story: BE-IT exam path
+  steps:
+    - intent: BE_IT
+    - action: utter_BE_IT
+
+- story: ENTC exam path
+  steps:
+    - intent: ENTC
+    - action: utter_ENTC
+- story: FE-ENTC exam path
+  steps:
+    - intent: FE_ENTC
+    - action: utter_FE_ENTC
+- story: SE-ENTC exam path
+  steps:
+    - intent: SE_ENTC
+    - action: utter_SE_ENTC
+- story: TE-ENTC exam path
+  steps:
+    - intent: TE_ENTC
+    - action: utter_TE_ENTC
+- story: BE-ENTC exam path
+  steps:
+    - intent: BE_ENTC
+    - action: utter_BE_ENTC
+
+- story: ELE exam path
+  steps:
+    - intent: ELE
+    - action: utter_ELE
+- story: FE-ELE exam path
+  steps:
+    - intent: FE_ELE
+    - action: utter_FE_ELE
+- story: SE-ELE exam path
+  steps:
+    - intent: SE_ELE
+    - action: utter_SE_ELE
+- story: TE-ELE exam path
+  steps:
+    - intent: TE_ELE
+    - action: utter_TE_ELE
+- story: BE-ELE exam path
+  steps:
+    - intent: BE_ELE
+    - action: utter_BE_ELE
+
+- story: MECH exam path
+  steps:
+    - intent: MECH
+    - action: utter_MECH
+- story: FE-MECH exam path
+  steps:
+    - intent: FE_MECH
+    - action: utter_FE_MECH
+- story: SE-MECH exam path
+  steps:
+    - intent: SE_MECH
+    - action: utter_SE_MECH
+- story: TE-MECH exam path
+  steps:
+    - intent: TE_MECH
+    - action: utter_TE_MECH
+- story: BE-MECH exam path
+  steps:
+    - intent: BE_MECH
+    - action: utter_BE_MECH
+
+- story: CSL exam path
+  steps:
+    - intent: CSL
+    - action: utter_CSL
+- story: FE-CSL exam path
+  steps:
+    - intent: FE_CSL
+    - action: utter_FE_CSL
+- story: SE-CSL exam path
+  steps:
+    - intent: SE_CSL
+    - action: utter_SE_CSL
+- story: TE-CSL exam path
+  steps:
+    - intent: TE_CSL
+    - action: utter_TE_CSL
+- story: BE-CSL exam path
+  steps:
+    - intent: BE_CSL
+    - action: utter_BE_CSL
 
 - story: end path
   steps:
