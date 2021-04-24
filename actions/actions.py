@@ -6,11 +6,13 @@
 
 
 # This is a simple example for a custom action which utters "Hello World!"
+import webbrowser
+from typing import Any, Text, Dict, List
 
-# from typing import Any, Text, Dict, List
-#
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+
+
 #
 #
 # class ActionHelloWorld(Action):
@@ -25,3 +27,17 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+class ActionTPO(Action):
+    def name(self) -> Text:
+        return "action_tpo"
+
+    async def run(
+            self,
+            dispatcher,
+            tracker: Tracker,
+            domain: "DomainDict",
+    ) -> List[Dict[Text, Any]]:
+        tpo_url = "http://tpo.geca.ac.in/Default.aspx"
+        dispatcher.utter_message("wait... you are redirected")
+        webbrowser.open(tpo_url)
+        return []
