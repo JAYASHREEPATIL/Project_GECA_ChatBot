@@ -26,7 +26,22 @@
 	border-radius: 1px;
 	overflow-y: scroll;
 	transition: 0.2s;
+
+
 }
+.bg-img{
+    position: relative;
+   /* height: 95vh;*/
+    background:linear-gradient(rgba(255, 254, 254, 0.692),rgba(255, 254, 254, 0.692)),url("../../geca-logo1.jpg");
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+
+}
+
+
+
 
 div.chats::-webkit-scrollbar {
 	width: 0px;
@@ -75,11 +90,11 @@ div.chats::-webkit-scrollbar-thumb:hover {
 
 .botAvatar {
 	border-radius: 50%;
-	width: 1.5em;
-	height: 1.5em;
+	width: 2em;
+	height: 2em;
 	float: left;
 	margin-left: 5px;
-	border: 2px solid #6072e6;
+
 }
 
 .botMsg {
@@ -138,8 +153,8 @@ div.chats::-webkit-scrollbar-thumb:hover {
 	padding: 5px;
 	width: 80%;
 	border-radius: 10px;
-	background: #ffffff;
-	box-shadow: 2px 5px 5px 1px #dbdade;
+	background: transparent;
+	/*box-shadow: 2px 5px 5px 1px #dbdade;8*/
 }
 
 .cardsImage {
@@ -187,7 +202,7 @@ video:focus {
 
 .menuChips {
 	display: block;
-	background: #6072e6;
+	background: #254585;
 	color: #fff;
 	text-align: center;
 	padding: 5px;
