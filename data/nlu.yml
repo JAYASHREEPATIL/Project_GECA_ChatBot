@@ -18,6 +18,10 @@ nlu:
     - who is the placement officer?
     - TPO
 
+- intent: visit_tpo
+  examples: |
+    - click here
+
 - intent: tpo_contact
   examples: |
     - can i get TPO contact?
