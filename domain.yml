@@ -78,11 +78,22 @@ responses:
   - text: "It's my pleasure😊\nHappy to help you ❤"
 
   utter_more_detail_traning:
-  - text: "you can contact TPO students coordinator or visit this one :"
+  - text: "you can contact TPO students coordinator or visit this one 👇 :"
     buttons:
       - title: "Click Here"
         payload: "/visit_tpo"
 
+  utter_prev_traning_details:
+  - text: "from here 👇 you can get details of it:"
+    buttons:
+      - title: "Click Here"
+        payload: "/visit_tpo"
+
+  utter_upcomimg_campus_details:
+  - text: "you can contact TPO students coordinator or click below 👇:"
+    buttons:
+      - title: "Click Here "
+        payload: "/visit_tpo"
 
   utter_tpoinfo:
   - text: "prof. Shailesh Ambekar is TPO of our college."
@@ -125,8 +136,6 @@ responses:
   utter_maximum_package:
   - text: "according to our records and students performance we provide maximum package between 7 to 10 lack per annum."
 
-  utter_upcomimg_campus_details:
-  - text: "here is that: http://tpo.geca.ac.in/Default.aspx/"
 
 
 
@@ -149,8 +158,7 @@ responses:
   utter_event_organize_by_MNC:
   - text: "we organize hackathons and competitions which are conducted by companies"
 
-  utter_prev_traning_details:
-  - text: "from here you can get details of it: http://tpo.geca.ac.in/Default.aspx"
+
 
 
 
@@ -699,5 +707,9 @@ session_config:
 
 actions :
   - action_tpo
-
+  - place_rec_third
+  - placement_record_fourthfifth
+  - place_recordOf_fifteensixteen
+  - placement_recordOf_serVenteen
+  - placeme_record_lastofYear
 

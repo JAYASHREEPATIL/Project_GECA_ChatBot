@@ -13,6 +13,58 @@ stories:
   - intent: visit_tpo
   - action: action_tpo
 
+- story: upcomming campus url
+  steps:
+  - intent: upcomimg_campus_details
+  - action: utter_upcomimg_campus_details
+  - intent: visit_tpo
+  - action: action_tpo
+
+- story: previous training details url
+  steps:
+  - intent: prev_traning_details
+  - action: utter_prev_traning_details
+  - intent: visit_tpo
+  - action: action_tpo
+
+- story: placement record path 2013 14 url
+  steps:
+    - intent: placement_records
+    - action: utter_placement_records
+    - intent: placement_record_of_2013_14
+    - action: place_rec_third
+
+
+- story:  placement record path 2014 15 url
+  steps:
+    - intent: placement_records
+    - action: utter_placement_records
+    - intent: placement_record_of_2014_15
+    - action: placement_record_fourthfifth
+
+- story:  placement record path 2015 16 url
+  steps:
+    - intent: placement_records
+    - action: utter_placement_records
+    - intent: placement_record_of_2015_16
+    - action: place_recordOf_fifteensixteen
+
+- story: placement record path 2016 17 url
+  steps:
+    - intent: placement_records
+    - action: utter_placement_records
+    - intent: placement_record_of_2016_17
+    - action: placement_recordOf_serVenteen
+
+- story:  placement record path 2017 18 url
+  steps:
+    - intent: placement_records
+    - action: utter_placement_records
+    - intent: placement_record_of_2017_18
+    - action: placeme_record_lastofYear
+
+
+
 - story: happy tpo information path
   steps:
   - intent: tpo_information
@@ -38,8 +90,7 @@ stories:
   - action: utter_placement_core_branch
   - intent: maximum_package
   - action: utter_maximum_package
-  - intent: upcomimg_campus_details
-  - action: utter_upcomimg_campus_details
+
 
 - story: happy traning information path
   steps:
@@ -55,8 +106,7 @@ stories:
   - action: utter_certification_of_traning
   - intent: event_organize_by_MNC
   - action: utter_event_organize_by_MNC
-  - intent: prev_traning_details
-  - action: utter_prev_traning_details
+
 
 
 - story: happy placement queries path cse
@@ -100,42 +150,6 @@ stories:
     - action: utter_quries_regarding_placement
     - intent: electronic_engineering
     - action: utter_electronic_engineering
-
-- story: happy placement record path 2013 14
-  steps:
-    - intent: placement_records
-    - action: utter_placement_records
-    - intent: placement_record_of_2013_14
-    - action: utter_placement_record_of_2013_14
-
-- story: happy placement record path 2014 15
-  steps:
-    - intent: placement_records
-    - action: utter_placement_records
-    - intent: placement_record_of_2014_15
-    - action: utter_placement_record_of_2014_15
-
-- story: happy placement record path 2015 16
-  steps:
-    - intent: placement_records
-    - action: utter_placement_records
-    - intent: placement_record_of_2015_16
-    - action: utter_placement_record_of_2015_16
-
-- story: happy placement record path 2016 17
-  steps:
-    - intent: placement_records
-    - action: utter_placement_records
-    - intent: placement_record_of_2016_17
-    - action: utter_placement_record_of_2016_17
-
-- story: happy placement record path 2017 18
-  steps:
-    - intent: placement_records
-    - action: utter_placement_records
-    - intent: placement_record_of_2017_18
-    - action: utter_placement_record_of_2017_18
-
 
 
 #lirary Story
