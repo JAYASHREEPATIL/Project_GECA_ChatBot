@@ -6,7 +6,7 @@
 
 
 # This is a simple example for a custom action which utters "Hello World!"
-
+import webbrowser
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
@@ -25,15 +25,31 @@ from rasa_sdk.executor import CollectingDispatcher
 #
 #         return []
 
-class ActionHelloWorldProgram(Action):
+# class ActionHelloWorldProgram(Action):
+#
+#     def name(self) -> Text:
+#         return "action_hello_world_program"
+#
+#     def run(self, dispatcher: CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#
+#         dispatcher.utter_message(text="Custom Action:  Hello World! ")
+#
+#         return []
 
-    def name(self) -> Text:
-        return "action_hello_world_program"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text="Custom Action:  Hello World! ")
-
-        return []
+# class ActionVideo(Action):
+#     def name(self) -> Text:
+#         return "action_video"
+#
+#     async def run(
+#             self,
+#             dispatcher,
+#             tracker: Tracker,
+#             domain: "DomainDict",
+#     ) -> List[Dict[Text, Any]]:
+#         video_url = "http://tpo.geca.ac.in/Default.aspx"
+#         dispatcher.utter_message("wait... you are redirected")
+#         webbrowser.open(video_url)
+#         return []
