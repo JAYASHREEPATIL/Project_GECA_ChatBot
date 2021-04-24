@@ -6,6 +6,13 @@ stories:
   - intent: start
   - action: utter_start
 
+- story: happy tpo info path
+  steps:
+  - intent: more_detail_traning
+  - action: utter_more_detail_traning
+  - intent: visit_tpo
+  - action: action_tpo
+
 - story: happy tpo information path
   steps:
   - intent: tpo_information
@@ -50,8 +57,7 @@ stories:
   - action: utter_event_organize_by_MNC
   - intent: prev_traning_details
   - action: utter_prev_traning_details
-  - intent: more_detail_traning
-  - action: utter_more_detail_traning
+
 
 - story: happy placement queries path cse
   steps:
@@ -231,8 +237,6 @@ stories:
 #Hostel story
 - story:
   steps:
-    - intent: Library
-    - action: utter_Lib
     - intent: Hostel
     - action: utter_Hostel
     - intent: Hostel1
