@@ -936,6 +936,48 @@ nlu:
     - gym future extension.
 
 
+# College Canteen
+
+- intent: College_Canteen
+  examples: |
+    - Does College has Canteen?
+    - Is college Provide Canteen facility?
+    - Is canteen is available in college?
+    - College Canteen
+    - Canteen
+    - Canteen Facility
+    - Canteen Services
+    - Canteen Services Provided
+    - Cantten Features Provided
+    - Canteen Location
+    - Where is Canteen
+    - Canteen food
+    - Types of Food Available in Canteen
+    - Canteen time
+    - time for canteen
+    - Canteen photos
+
+
+- intent: CF
+  examples: |
+
+- intent: feature
+  examples: |
+
+- intent: services
+  examples: |
+
+- intent: food
+  examples: |
+
+- intent: CTiming
+  examples: |
+
+- intent: CLocation
+  examples: |
+
+
+
 
 
 

@@ -499,3 +499,21 @@ stories:
     - action: utter_GymYoga
     - intent: GymExtension
     - action: utter_GymExtension
+
+# College Canteen story
+- story: College_Canteen
+  steps:
+    - intent: College_Canteen
+    - action: utter_College_Canteen
+    - intent: CF
+    - action: utter_CFacility
+    - intent: services
+    - action: utter_Cservices
+    - intent: feature
+    - action: utter_Cfeature
+    - intent: food
+    - action: utter_Food
+    - intent: CTiming
+    - action: utter_CanteenTiming
+    - intent: CLocation
+    - action: utter_location

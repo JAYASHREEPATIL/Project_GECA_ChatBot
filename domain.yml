@@ -762,6 +762,56 @@ responses:
 
 
 
+# College Canteen Responses
+
+  utter_College_Canteen:
+  - text: "@@@@@ The Native Place of Food.@@@@@"
+    buttons:
+      - title: "Facility"
+        payload: "/CF"
+      - title: "Feature"
+        payload: "/feature"
+      - title: "Services"
+        payload: "/services"
+      - title: "Food"
+        payload: "/food"
+      - title: "Timing"
+        payload: "/CTiming"
+      - title: "Location"
+        payload: "/CLocation"
+
+  utter_CFacility:
+  - text: "   A favourite haunt of student during off hours is the spacious and well-designed canteen with a suitable aesthetic touch.
+              The canteen has a modern kitchen with the latest appliances to provide for Indian and chinese cuisine.
+              The interior is tastefully crafted to provide the much needed relief and soothing environment."
+
+  utter_Cservices:
+  - text:  " 1. Adequate & Well-furnished Canteen with proper Ventilation.
+             2. 50 Nos. Square Table with 100 seating capacity.
+             3. Chillers & Freezer Facilities."
+
+  utter_Cfeature:
+  - text: "1. RO,UV Water Purifier with Water Cooler.
+           2. CCTV Surveillance
+           3. Fire Extinguishers
+           4. Fully Wi-Fi Connected"
+
+
+  utter_Food:
+  - text: " 1. All types of Snacks(Maharashtrian, South Indian, Panjabi,and Chinese)
+            2. Juices & Cold Drinks , Ice-Cream
+            3. Chat Centre."
+
+  utter_location:
+  - text: " College Canteen is near to the College Auditorium."
+
+  utter_CanteenTiming:
+  - text: "@@@@@@ Canteen Time @@@@@@
+           7.00 AM to 8.00 PM."
+
+
+
+
 
 
 
