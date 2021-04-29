@@ -462,3 +462,40 @@ stories:
   steps:
     - intent: end
     - action: utter_end
+
+
+
+# College Gym Story
+
+- story: College Gym
+  steps:
+    - intent: CollegeGym
+    - action: utter_CollegeGym
+    - intent: GymFees
+    - action: utter_GymFees
+    - intent: GymJoin
+    - action: utter_GymJoin
+    - intent: GymAway
+    - action: utter_GymAway
+    - intent: GymTime
+    - action: utter_GymTime
+    - intent: GymRegistration
+    - action: utter_GymRegistration
+    - intent: GymEquipment
+    - action: utter_GymEquipment
+    - intent: GymMachine
+    - action: utter_GymMachine
+    - intent: GymCleaning
+    - action: utter_GymCleaning
+    - intent: WeighingMachine
+    - action: utter_WeighingMachine
+    - intent: GymTrainer
+    - action: utter_GymTrainer
+    - intent: GymInstruction
+    - action: utter_GymInstruction
+    - intent: GymMember
+    - action: utter_GymMember
+    - intent: GymYoga
+    - action: utter_GymYoga
+    - intent: GymExtension
+    - action: utter_GymExtension

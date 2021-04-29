@@ -844,6 +844,104 @@ nlu:
 
 
 
+# CollegeGym
+
+- intent: CollegeGym
+  examples: |
+    - Does the college has the gym?
+    - Does the college has the gym for girls?
+    - Does the college has the gym for boys?
+    - Is the gym is available for both?
+
+- intent: GymFees
+  examples: |
+    - Is there any fees we have to pay for getting membership in gym?
+    - It there is any fees for gym?
+    - Is there is any cost to enroll in to gym?
+
+- intent: GymJoin
+  examples: |
+    - How can I join the gym?
+    - How can I register for the gym?
+    - Is there any seprate form we have to fill?
+    - How I get enroll in college gym?
+
+- intent: GymAway
+  examples: |
+    - Is the gym away from the college campus?
+    - Is the gym location is away from college premises?
+    - location of gym center?
+
+- intent: GymTime
+  examples: |
+    - What are the timings for the gym?
+    - opening time gor gym?
+    - closing time for gym?
+
+- intent: GymRegistration
+  examples: |
+    - Is any registration we have to do in gym?
+    - if any registration is needed in gym?
+    - gym registration
+
+- intent: GymEquipment
+  examples: |
+    - How many equipments are there in the gym?
+    - which type of equipments available in gym?
+    - gym equipment
+    - What are the diffrent equipment available in gym?
+
+- intent: GymMachine
+  examples: |
+    - Are the machines well maintained and newly setup?
+    -  machine is properly in gym?
+
+- intent: GymCleaning
+  examples: |
+    - Is there proper regular cleaning done in the gym?
+    - Is the regular cleaning is done is gym?
+    - Does the gym is clean?
+
+- intent: WeighingMachine
+  examples: |
+    - Is there is weighing machine available in the gym?
+    - weighing machine?
+
+- intent: GymTrainer
+  examples: |
+    - Is there particular trainer alloted in the gym for training girls as well as boys?
+    - Is any trainer is available in gym?
+    - gym trainer
+
+- intent: GymInstruction
+  examples: |
+    - Is there any instruction manual available for using equipments in the gym?
+    - Is any instruction manual in gym for new person?
+
+
+- intent: GymMember
+  examples: |
+    - How many members are allowed at a time in the gym?
+    - members allow in gym?
+
+- intent: GymYoga
+  examples: |
+    - Is there yoga accessories available in the gym?
+    - yoga accessories is available in gym?
+    - Does the gym has yoga accessories?
+
+- intent: GymExtension
+  examples: |
+    - Will be there future extension of gym and its equipments?
+    - gym future extension.
+
+
+
+
+
+
+
+
 
 
 

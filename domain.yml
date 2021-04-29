@@ -700,6 +700,70 @@ responses:
   - text: " Yes, Hostel is very hygienic. Cleaners daily clean the hostel."
 
 
+# Gym Responses
+  utter_CollegeGym:
+  - text: " Yes ... The Gym is being provided for both girls and boys separately in their particular hostel."
+
+  utter_GymFees:
+  - text: " Students don't have to pay any extra fees for the gym. As it is free for everyone in the hostel."
+
+  utter_GymJoin:
+  - text: " If you are admitted to hostel no need to fill any extra form for the gym, as it comes under fitness facilities
+            provided for the hostel"
+
+  utter_GymAway:
+  - text: " It is in the particular hostel premises at ground floor."
+
+
+  utter_GymTime:
+  - text: " To avoid rush in the gym particular slots have been alloted for the particular years.
+            First Year - 6.00 AM to 8.00 AM
+            Second Year - 8.00 AM to 10.00 AM
+            Third Year - 4.00 PM to 6.00 PM
+            Fourth Year - 6.00 PM to 8.00 PM."
+  utter_GymRegistration:
+  - text: " While entering in the gym everyday you have to fill the name and timing in the gym register for record."
+
+  utter_GymEquipment:
+  - text: " There are particular equipments available in the gym which can be easily accessible to all like
+            treadmill, cycle, dumbles, elliptical machine, electronics skipping rope, legpress, shoulderpress,
+            cable tricep bar, hanging leg raise, rowing machine."
+  utter_GymMachine:
+  - text: " The machines are all new and highly maintained."
+
+
+  utter_GymCleaning:
+  - text: " Everyday cleaning is done all over the gym including the machines by cleaning personnel."
+
+
+  utter_WeighingMachine:
+  - text: " Yes Three weighing machine is availble in the gym including analogue as well as digital machine,"
+
+
+  utter_GymTrainer:
+  - text: " As the gym equipments and machines are easily accessible and handy to use everyone can do their
+            exercise on their own. No particular trainer needed for the gym."
+
+
+
+  utter_GymInstruction:
+  - text: " Instruction has been provided in front of the equipments before using so one can easily access them."
+
+
+  utter_GymMember:
+  - text: " 7 to 8 members at a time can easily enjoy exercising in the gym."
+
+
+  utter_GymYoga:
+  - text: " The college is being about to arrange yoga accessories for gym. But one cannot practice yoga in the gym because of heavy machinery."
+
+  utter_GymExtension:
+    - text: "If It is requested by students then definitely the college try its best to provide further any such development of the gym."
+
+
+
+
+
 
 session_config:
   session_expiration_time: 60
