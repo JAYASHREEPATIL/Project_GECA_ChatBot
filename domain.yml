@@ -809,6 +809,120 @@ responses:
   - text: "@@@@@@ Canteen Time @@@@@@
            7.00 AM to 8.00 PM."
 
+# College sports Responses
+
+  utter_CollegeSports:
+  - text: "Yes... The GECA college organizes the one week sports for students between the different departments in the college."
+  utter_NationalSport:
+  - text: "No, only the sports competition is held at college level. Between the various departments."
+
+
+  utter_sportParticipation:
+  - text: "Yes.. sports is for both girls and boys.. you can participate in particular sports for the particular department team."
+
+
+  utter_sportsGround:
+  - text: "Yes... college has a different playground for the different sports.
+         example-
+         1) Cricket Ground
+         2) Volleyball Ground
+         3) Basketball Ground
+         4) Football Ground
+         4) and all the other sports ground such as Kabbaddi, Kho-Kho, "
+
+
+  utter_sportsOther:
+  - text: "No.. The other college students can not participate in this sports event. This sports event is organized for only GECA college students."
+
+
+  utter_SportsType:
+  - text: "All the Indoor and Outdoor sports competitions are organize.
+ "
+    buttons:
+      - title: "Indoor"
+        payload: "/Indoor"
+      - title: "Outdoor"
+        payload: "/Outdoor"
+
+  utter_Indoor:
+  - text: "The Outdoor games are:
+         1) Chess
+         2) Table Tennis
+         3) Carrom Board
+         "
+
+  utter_Outdoor:
+  - text: "The Outdoor games are:
+           1) Cricket
+           2) Hockey
+           3) FootBall
+           4) VolleyBall
+           5) Kabbadi
+           6) Kho-kho"
+
+
+  utter_SportsInstruments:
+  - text: " Various sports equipments are available such as 1) Coaching Bags, Coaching Clipboards, Pinnis, Whistles,
+            Balls, Bases, Nets, goals and posts, Footwear, Jerseys, sports uniform, Elbow pads ... etc."
+
+
+  utter_SportsMatches:
+  - text: "The sports matches are held between only the department level students in the college."
+
+
+  utter_SportAcademic:
+  - text: "Yes.. The sports is compulsory for every student in academics. As sports have separate credits in academic results."
+
+
+  utter_SportsCommitee:
+  - text: "Yes.. the sports committee is for the organizing the sports events."
+
+
+
+  utter_sportCoodinator:
+  - text: "You can contact sports committee members.. and pass the basic interview for the sports co-coordinator."
+
+
+
+  utter_sportsFees:
+  - text: "Students don't have to pay any extra fees for the sports. As it is free for everyone in the college."
+
+
+
+  utter_sportsTime:
+  - text: "Sports Time is from 4.00 pm to 9.00 pm during other days.
+        and 9.00 am to 9.00 pm on saturday and sunday during the sports week."
+
+
+
+  utter_SportsHoliday:
+  - text: "No.. colleges have no holidays during the sports week. As the students can play after the classes and lectures are finished."
+
+
+
+  utter_sportBunk:
+  - text: "No... It is compulsory for the students to attend the college in sports week."
+
+
+  utter_sportMedical:
+  - text: "Yes... The Medical Kit, First-AID Box are available for the players.. Also player csn contact the sports committee members."
+
+
+
+  utter_sportsWeek:
+  - text: "The Tentative Dates for the sports week is the last week of March month."
+
+
+  utter_sportsCoach:
+  - text: "Yes.. The college allotted the different coaches for the different sports for training."
+
+
+
+
+
+
+
+
 
 
 

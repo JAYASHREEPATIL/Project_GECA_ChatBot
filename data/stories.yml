@@ -517,3 +517,50 @@ stories:
     - action: utter_CanteenTiming
     - intent: CLocation
     - action: utter_location
+
+
+# College sport story
+
+- story:
+  steps:
+    - intent: CollegeSports
+    - action: utter_CollegeSports
+    - intent: NationalSport
+    - action: utter_NationalSport
+    - intent: sportParticipation
+    - action: utter_sportParticipation
+    - intent: sportsGround
+    - action: utter_sportsGround
+    - intent: sportsOther
+    - action: utter_sportsOther
+    - intent: SportsType
+    - action: utter_SportsType
+    - intent: Indoor
+    - action: utter_Indoor
+    - intent: Outdoor
+    - action: utter_Outdoor
+    - intent: SportsInstruments
+    - action: utter_SportsInstruments
+    - intent: SportsMatches
+    - action: utter_SportsMatches
+    - intent: SportAcedemic
+    - action: utter_SportAcademic
+    - intent: SportsCommitee
+    - action: utter_SportsCommitee
+    - intent: sportCoodinator
+    - action: utter_sportCoodinator
+    - intent: sportsFees
+    - action: utter_sportsFees
+    - intent: sportsTime
+    - action: utter_sportsTime
+    - intent: SportsHoliday
+    - action: utter_SportsHoliday
+    - intent: sportBunk
+    - action: utter_sportBunk
+    - intent: sportMedical
+    - action: utter_sportMedical
+    - intent: sportsWeek
+    - action: utter_sportsWeek
+    - intent: sportsCoach
+    - action: utter_sportsCoach
+

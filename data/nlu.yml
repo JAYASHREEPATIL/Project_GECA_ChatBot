@@ -976,6 +976,127 @@ nlu:
 - intent: CLocation
   examples: |
 
+# College sports
+
+- intent: CollegeSports
+  examples: |
+   - Does the college held a sports competition?
+   - college sport
+   - Is any sports competition in college?
+
+- intent: NationalSport
+  examples: |
+   - Is the sports competition held at national level?
+   - Is Geca college held the National Level sports.
+   - Does the college organize the national level sports?
+
+
+- intent: sportParticipation
+  examples: |
+   - How can the students participate in sports?
+   - Do girls participate in sports?
+   - Do boys participate in sports?
+   - Can girls and boys both participate in sports?
+
+
+- intent: sportsGround
+  examples: |
+   - Does the college have the sports ground?
+   - which sports grounds are available in college?
+   - sports ground
+   - Sports Ground
+
+- intent: sportsOther
+  examples: |
+   - Can other college students participate in this sport?
+   - can other colleges participate in sports?
+   - can other colleges participate?
+
+- intent: SportsType
+  examples: |
+   - which type of sports competitions are organized?
+   - which type of sports are played?
+   - Can you give me which sports competitions are organized?
+
+- intent: Indoor
+  examples: |
+
+- intent: Outdoor
+  examples: |
+
+
+- intent: SportsInstruments
+  examples: |
+    - which sports equipment is available in college?
+    - Do the sports instruments are available?
+    - sports equipments
+
+
+- intent: SportsMatches
+  examples: |
+    - Does the sports matches are held with other college students?
+    - Does the sports matches are held with other colleges?
+
+- intent: SportAcademic
+  examples: |
+    - Is sports compulsory in academic activities?
+    - Is there any credits for sports in the academic curriculum?
+    - Is sports compulsory for students?
+
+
+
+- intent: Sports Committee
+  examples: |
+    - Does any sports committee exist?
+    - sports committee
+    - Is any sports coordinator in college?
+
+
+- intent: sports Coordinator
+  examples: |
+    - How can I participate in the sports committee?
+    - Is there any separate interview for sports coordinator?
+    - Can I participate in the sports committee?
+
+- intent: sportsFees
+  examples: |
+    - Are there any fees we have to pay for participating in sports?
+    - Does any fees required for sports participation?\
+    - sports fees
+
+- intent: sportsTime
+  examples: |
+    - what are the timings for the sports?
+    - time for the sports?
+
+- intent: SportsHoliday
+  examples: |
+    - Does the college have holidays in sports week?
+    - Do the students have holidays in sports?
+
+- intent: sportBunk
+  examples: |
+    - can students bunk the college in sports week?
+    - students can bunk the college in sports?
+
+- intent: sportMedical
+  examples: |
+    - Is any medical facility available when the student gets injured in sports?
+    - Does any medical kit is available to injured players?
+    - sports medical kit
+
+- intent: sportsWeek
+  examples: |
+    - Can you give me tentative dates for sports week?
+    - date for sports week?
+    - when the sports week is organized?
+
+- intent: sportsCoach
+  examples: |
+    - Is there a particular coach is alloted in sports for training?
+    - sports coaches are allocated for training?
+    - sports coach
+
 
 
 
