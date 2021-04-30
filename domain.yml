@@ -1064,6 +1064,508 @@ responses:
 
 
 
+  utter_Department:
+  - text: "Please Select Department"
+    buttons:
+      - title: Civil Engineering
+        payload: "/civilD"
+      - title: Electrical Engineering
+        payload: "/eleD"
+      - title: Mechanical Engineering
+        payload: "/mechD"
+      - title: Electronics & Telecommunication
+        payload: "/entcD"
+      - title: Computer Science & Engineering
+        payload: "/cseD"
+      - title: Information Technology
+        payload: "/ITD"
+      - title: Master in Computer Application
+        payload: "/mcaD"
+      - title: Applied Mechanics
+        payload: "/mechanicsD"
+      - title: Applied Mathematics
+        payload: "/mathD"
+      - title: Applied Science
+        payload: "/scienceD"
+
+  utter_civilD:
+  - text: " Welcome to Civil Engineering Department."
+    buttons:
+      - title: About
+        payload: "/AboutCivil"
+      - title: Courses Offered
+        payload: "/CoursesCivil"
+      - title: Head of Department
+        payload: "/hodCivil"
+      - title: Faculty and Staff
+        payload: "/staffCivil"
+      - title: Lab & Infrastructure
+        payload: "/labCivil"
+
+
+  utter_AboutCivil:
+  - text: " Civil Engineering is traditional branch of Engineering and is amongst the founding courses when the institution was started. The department is located in the 'Annexe' building of the college. The Department of Civil Engineering conducts both full time and part time undergraduate courses in Civil Engineering. It also conducts postgraduate programme in Water Resources Engineering and a part time Post-Graduate programme in Soil Engineering.
+         "
+    buttons:
+      - title: "More Info"
+        payload: "/Civil_Details"
+
+  utter_CoursesCivil:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Civil_Details"
+
+  utter_hodCivil:
+  - text: "Dr. R.V.Shetkar"
+    buttons:
+      - title: "More Info"
+        payload: "/Civil_Details"
+  utter_staffCivil:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Civil_Details"
+  utter_labCivil:
+  - text: ""
+
+    buttons:
+      - title: "More Info"
+        payload: "/Civil_Details"
+
+
+  utter_mechD:
+  - text: " Welcome to Mechanical Engineering Department."
+    buttons:
+      - title: About
+        payload: "/AboutMechanical"
+      - title: Courses Offered
+        payload: "/CoursesMechanical"
+      - title: Head of Department
+        payload: "/hodMechanical"
+      - title: Faculty and Staff
+        payload: "/staffMechanical"
+      - title: Lab & Infrastructure
+        payload: "/labMechanical"
+
+
+  utter_AboutMechanical:
+  - text: "The Department of Mechanical Engineering was the first branch started in the college in 1960. Mechanical Engineering is the Oldest branch of engineering and so as a tradition it was also the first branch to be started in the college. Research Areas of Department Composite Materials Optimization Techniques Cryogenic Processing Refrigeration and Multiphase Flow Renewable Energy Micro Manufacturing Vibration and Acoustics Finite Element Analysis Salient."
+    buttons:
+      - title: "More Info"
+        payload: "/Mech_Details"
+  utter_CoursesMechanical:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Mech_Details"
+
+  utter_hodMechanical:
+  - text: "Prof. Dr. S.B.Chikalthankar"
+    buttons:
+      - title: "More Info"
+        payload: "/Mech_Details"
+
+  utter_staffMechanical:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Mech_Details"
+
+  utter_labMechanical:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Mech_Details"
+
+
+  utter_eleD:
+  - text: " Welcome to Electrical Engineering Department."
+    buttons:
+      - title: About
+        payload: "/AboutElectrical"
+      - title: Courses Offered
+        payload: "/CoursesElectrical"
+      - title: Head of Department
+        payload: "/hodElectrical"
+      - title: Faculty and Staff
+        payload: "/staffElectrical"
+      - title: Lab & Infrastructure
+        payload: "/labElectrical"
+
+
+  utter_AboutElectrical:
+  - text: " The Department of Electrical Engineering at the Government College of Engineering Aurangabad was established in 1960, foundation year of the Institute and has a history of almost 50 years. The Department offers full time undergraduate (B.E.) course in Electrical, Electronics and Power & two postgraduate (M.E.) course in Electrical Power System & Electrical Machines and Drives. The Department also offers part time undergraduate (B.E.) course in Electrical, Electronics and Power & postgraduate (M.E.) course in Electrical Power System for the employees working in nearby industrial, government sectors."
+    buttons:
+      - title: "More Info"
+        payload: "/ele_Details"
+  utter_CoursesElectrical:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/ele_Details"
+
+  utter_hodElectrical:
+  - text: "Mr.S.S.Dhamse"
+    buttons:
+      - title: "More Info"
+        payload: "/ele_Details"
+
+  utter_staffElectrical:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/ele_Details"
+
+  utter_labElectrical:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/ele_Details"
+
+
+  utter_cseD:
+  - text: " Welcome to Civil Engineering Department."
+    buttons:
+      - title: About
+        payload: "/AboutCse"
+      - title: Courses Offered
+        payload: "/CoursesCse"
+      - title: Head of Department
+        payload: "/hodCse"
+      - title: Faculty and Staff
+        payload: "/staffCse"
+      - title: Lab & Infrastructure
+        payload: "/labCse"
+
+
+  utter_AboutCse:
+  - text: " Computers have captured the world. Today there is no single field were computers have not left a mark. The Department of Computer Science and Engineering established in 1986 is dedicated to produce students who excel in this field. The department aims at IT based Learning, Development of Entrepreneurship among student and become a Centre of Excellence. The Department places high priority on establishing and maintaining innovative research programs that enhance the educational opportunity and encourage a broad base of extramural support to prepare future generations of computer professionals for long term careers in research, technical development and applications. The department has organized many series of expert lecture for the students on the latest developing trends in computer industry."
+    buttons:
+      - title: "More Info"
+        payload: "/CSE_Details"
+  utter_CoursesCse:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/CSE_Details"
+
+  utter_hodCse:
+  - text: " Dr. Vivek Shirsagar
+            Designation: HOD & Associate Professor
+            Qualification /[expertise] : PhD (Computer Science & Engineering)"
+    buttons:
+      - title: "More Info"
+        payload: "/CSE_Details"
+
+  utter_staffCse:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/CSE_Details"
+
+  utter_labCse:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/CSE_Details"
+
+
+
+
+  utter_eTD:
+  - text: " Welcome to Electronics & Telecommunication Department."
+    buttons:
+      - title: About
+        payload: "/AboutEntc"
+      - title: Courses Offered
+        payload: "/CoursesEntc"
+      - title: Head of Department
+        payload: "/hodEntc"
+      - title: Faculty and Staff
+        payload: "/staffEntc"
+      - title: Lab & Infrastructure
+        payload: "/labEntc"
+
+
+
+  utter_AboutEntc:
+  - text: " Department of E&TC had started U.G. Course B.E.(E&TC) in 1986 with sanctioned intake of 40 and enhanced to 60 in 1996. Department also runs full time Post Graduate Course M.E. (EC) and well equipped Recognized Research centre leading to Ph.D. (Electronics Engineering). Part time BE (E&TC) and part time ME (EC) are also run to give opportunity to working graduates and diploma holders. The department has well qualified and dedicated faculty with an average teaching experience of these faculty members is more than 20 years."
+    buttons:
+      - title: "More Info"
+        payload: "/ET_Details"
+  utter_CoursesEntc:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/ET_Details"
+
+  utter_hodEntc:
+  - text: " Prof. H. R. Hirekhan
+            Designation: Associate Professor & HOD
+            Qualification /[expertise]: ME"
+    buttons:
+      - title: "More Info"
+        payload: "/ET_Details"
+
+  utter_staffEntc:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/ET_Details"
+
+  utter_labEntc:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/ET_Details"
+
+
+  utter_ITD:
+  - text: " Welcome to Information Technology Department."
+    buttons:
+      - title: About
+        payload: "/AboutIT"
+      - title: Courses Offered
+        payload: "/CoursesIT"
+      - title: Head of Department
+        payload: "/hodIT"
+      - title: Faculty and Staff
+        payload: "/staffIT"
+      - title: Lab & Infrastructure
+        payload: "/labIT"
+
+
+  utter_AboutIT:
+  - text: "Information Technology Discipline was started in 2000-01 in the Government Engineering College, Aurangabad. Department of Information Technology got established from academic year 2002-03. Starting aim was to implement the UG programme in Information Technology with intake capacity of 60. Goals in the nearest future: - Establishing the department as individual independent entity - Setting up of modernized laboratories - Development of departmental library - Enhancing testing facilities - Strengthening industry institute relations through interaction - Motivating the faculty for higher education.
+
+          "
+    buttons:
+      - title: "More Info"
+        payload: "/IT_Details"
+
+
+
+
+  utter_CoursesIT:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/IT_Details"
+
+  utter_hodIT:
+  - text:  " Ms. Anjana Narayanrao Ghule
+             Designation: Head and Assistant Professor
+             Qualification /[expertise]: BE(CSE), ME(CSE)"
+
+    buttons:
+      - title: "More Info"
+        payload: "/IT_Details"
+  utter_staffIT:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/IT_Details"
+
+  utter_labIT:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/IT_Details"
+
+
+
+  utter_mcaD:
+  - text: " Welcome to Master in Computer Application Department."
+    buttons:
+      - title: About
+        payload: "/AboutMCA"
+      - title: Courses Offered
+        payload: "/CoursesMCA"
+      - title: Head of Department
+        payload: "/hodMCA"
+      - title: Faculty and Staff
+        payload: "/staffMCA"
+      - title: Lab & Infrastructure
+        payload: "/labMCA"
+
+  utter_AboutMCA:
+  - text: "Computers have captured the world. Today there is no single field were computers have not left a mark. The Department of Computer Science and Engineering established in 1986 is dedicated to produce students who excel in this field. The department aims at IT based Learning, Development of Entrepreneurship among student and become a Centre of Excellence. "
+    buttons:
+      - title: "More Info"
+        payload: "/MCA_Details"
+  utter_CoursesMCA:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/MCA_Details"
+
+  utter_hodMCA:
+  - text: " Dr. Praveen Shetiye
+            Designation: HOD & Associate Professor
+            Qualification /[expertise]:PhD(Computer Science & Engineering)"
+    buttons:
+      - title: "More Info"
+        payload: "/MCA_Details"
+  utter_staffMCA:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/MCA_Details"
+
+  utter_labMCA:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/MCA_Details"
+
+
+  utter_mathD:
+  - text: " Welcome to Mathematics Department."
+    buttons:
+      - title: About
+        payload: "/AboutMath"
+      - title: Courses Offered
+        payload: "/CoursesMath"
+      - title: Head of Department
+        payload: "/hodMath"
+      - title: Faculty and Staff
+        payload: "/staffMath"
+      - title: Lab & Infrastructure
+        payload: "/labMath"
+
+
+
+
+  utter_AboutMath:
+  - text: "Mathematics is the basic need of all Engineering Sciences. Hence it is included as a compulsory subject in the syllabi for all the branches of engineering education. Engineering Mathematics is taught at first and second year of B.E. degree course as well as for M.E. and MCA courses. The subject is aimed at improving the basic mathematical skills of Engineering students. The topics introduced will serve as basic tools for specialized studies in many Engineering fields. Also Discrete Mathematics is taught to the Computer Science & Engineering, MCA and I.T. students"
+    buttons:
+      - title: "Click Here"
+        payload: "/Math_Details"
+
+  utter_CoursesMath:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Math_Details"
+  utter_hodMath:
+  - text: "Mr.Sunil Devidas Ahirrao
+           Designation: HOD
+           Qualification /[expertise] : MSC (Mathematics)"
+    buttons:
+      - title: "More Info"
+        payload: "/Math_Details"
+
+
+  utter_staffMath:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Math_Details"
+
+  utter_labMath:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Math_Details"
+
+
+
+  utter_scienceD:
+  - text: " Welcome to Science Department."
+    buttons:
+      - title: About
+        payload: "/AboutScience"
+      - title: Courses Offered
+        payload: "/CoursesScience"
+      - title: Head of Department
+        payload: "/hodScience"
+      - title: Faculty and Staff
+        payload: "/staffScience"
+      - title: Lab & Infrastructure
+        payload: "/labScience"
+
+  utter_AboutScience:
+  - text: "Applied Science Department includes two Basic sciences 1. Physics 2. Chemistry The Department conducts the course for the first year students of engineering to develop use of applied science for research and technical careers in industries, academia and government. For the better understanding of technical and engineering education system."
+    buttons:
+      - title: "More Info"
+        payload: "/Science_Details"
+  utter_CoursesScience:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Science_Details"
+
+
+
+  utter_hodScience:
+  - text: "Prof. M.P. BHUSARI (HOD Chemistry)
+          Dr. S. M. DESAI  (HOD Physics)"
+    buttons:
+      - title: "More Info"
+        payload: "/Science_Details"
+  utter_staffScience:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Science_Details"
+
+  utter_labScience:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Science_Details"
+
+
+
+
+
+  utter_mechanicsD:
+  - text: " Welcome to Mechanics Engineering Department."
+    buttons:
+      - title: About
+        payload: "/AboutMechanics"
+      - title: Courses Offered
+        payload: "/CoursesMechanics"
+      - title: Head of Department
+        payload: "/hodMechanics"
+      - title: Faculty and Staff
+        payload: "/staffMechanics"
+      - title: Lab & Infrastructure
+        payload: "/labMechanics"
+
+  utter_AboutMechanics:
+  - text: "The Department of Applied Mechanics is an important PG department in the institute. It not only runs PG programme in Structural Engineering with 18 intake capacity every year, but also caters to the needs of various UG programmes in the institute by teaching Engineering Mechanics, Strength of Materials, etc. The department has highest number of faculty members possessing PhD qualifications, who are quite interested in pursuing research work in structural engineering."
+    buttons:
+      - title: "More Info"
+        payload: "/Mechanics_Details"
+  utter_CoursesMechanics:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Mechanics_Details"
+
+  utter_hodMechanics:
+  - text: "Dr. R. S. Londhe
+           Designation: Professor & HOD
+           Qualification /[expertise]: PhD"
+    buttons:
+      - title: "More Info"
+        payload: "/Mechanics_Details"
+  utter_staffMechanics:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Mechanics_Details"
+
+  utter_labMechanics:
+  - text: ""
+    buttons:
+      - title: "More Info"
+        payload: "/Mechanics_Details"
+
+
+
 
 
 
@@ -1083,4 +1585,15 @@ actions :
   - place_recordOf_fifteensixteen
   - placement_recordOf_serVenteen
   - placeme_record_lastofYear
+  - action_Civil_Details
+  - action_ele_Details
+  - action_Mech_Details
+  - action_CSE_Details
+  - action_ET_Details
+  - action_IT_Details
+  - action_MCA_Details
+  - action_Science_Details
+  - action_Math_Details
+  - action_Mechanics_Details
+
 

@@ -1275,6 +1275,504 @@ nlu:
   examples: |
 
 
+# Department Detail
+
+- intent: Department
+  examples: |
+    - Name of the Department
+    - Give me the Department Information
+
+- intent: civilD
+  examples: |
+    - Give me the civil department information
+    - Civil Department
+    - civil department
+    - Information about civil department
+    - info about civil department
+    - About civil department
+
+- intent: eleD
+  examples: |
+    - Give me the electrical department information
+    - Electrical Department
+    - electrical department
+    - Information about electrical department
+    - info about electrical department
+    - About electrical department
+
+- intent: mechD
+  examples: |
+    - Give me the mechanical department information
+    - Mechanical Department
+    - mechanical department
+    - Information about mechanical department
+    - info about mechanical department
+    - About mechanical department
+
+- intent: cseD
+  examples: |
+    - Give me the computer science department information
+    - Computer Science Department
+    - computer science department
+    - Information about computer science department
+    - info about computer science department
+    - About computer science department
+
+- intent: eTD
+  examples: |
+    - Give me the electronic & telecommunication department information
+          - Electronic & Telecommunication Department
+          - ENTC department
+          - Information about ENTC department
+          - info about ENTC department
+          - About ENTC department
+
+- intent: ITD
+  examples: |
+    - Give me the Information Technology department information
+          - IT Department
+          - IT department
+          - Information about IT department
+          - info about IT department
+          - About IT department
+
+- intent: mcaD
+  examples: |
+    - - Give me the MCA department information
+          - MCA Department
+          - mca department
+          - Information about MCA department
+          - info about MCA department
+          - About MCA department
+
+- intent: mathD
+  examples: |
+    - Give me the math department information
+    - Math Department
+    - math department
+    - Information about math department
+    - info about math department
+    - About math department
+
+- intent: scienceD
+  examples: |
+    - Give me the science department information
+    - Science Department
+    - science department
+    - Information about science department
+    - info about science department
+    - About science department
+
+
+- intent: mechanicsD
+  examples: |
+    - Give me the mechanics department information
+    - Mechanics Department
+    - mechanics department
+    - Information about mechanics department
+    - info about mechanics department
+    - About mechanics department
+
+
+- intent: AboutCivil
+  examples: |
+    - Give me the Details about civil Department
+    - civil department details
+    - CIVIL DEPARTMENT DETAILS
+
+
+
+- intent: CoursesCivil
+  examples: |
+    - Course details of civil department
+    - civil course details
+
+- intent: hodCivil
+  examples: |
+    - Head of Department of civil Department
+    - HOD of civil department
+
+- intent: staffCivil
+  examples: |
+    - Civil Department Staff Name
+    - civil department staff
+
+
+- intent: labCivil
+  examples: |
+    - Give me the Name of civil lab.
+    - Name of civil lab
+    - civil lab
+
+
+- intent: AboutMechanical
+  examples: |
+    - Give me the Details about mechanical Department
+    - mechanical department details
+    - MECHANICAL DEPARTMENT DETAILS
+
+
+- intent: CoursesMechanical
+  examples: |
+    - Course details of mechanical department
+    - mechanical department course details
+
+
+- intent: hodMechanical
+  examples: |
+    - Head of Department of Mechanical Department
+    - HOD of mechanical department
+
+
+
+- intent: staffMechanical
+  examples: |
+    - Mechanical Department Staff Name
+    - mechanical department staff
+
+
+- intent: labMechanical
+  examples: |
+    - Give me the Name of mechanical lab.
+    - Name of mechanical lab
+    - mechanical lab
+
+
+- intent: AboutElectrical
+  examples: |
+    - Give me the Details about electrical Department
+    - electrical department details
+    - ELECTRICAL DEPARTMENT DETAILS
+
+
+- intent: CoursesElectrical
+  examples: |
+    - Course details of electrical department
+    - electrical course details
+
+
+- intent: hodElectrical
+  examples: |
+    - Head of Department of Electrical Department
+    - HOD of electrical department
+
+
+
+- intent: staffElectrical
+  examples: |
+    - Electrical Department Staff Name
+    - electrical department staff
+
+- intent: labElectrical
+  examples: |
+    - Give me the Name of electrical lab.
+    - Name of electrical lab
+    - electrical lab
+
+
+- intent: AboutCse
+  examples: |
+    - Give me the Details about computer science department
+    - computer science department details
+    - COMPUTER SCIENCE  DEPARTMENT DETAILS
+
+- intent: CoursesCse
+  examples: |
+    - Course details of computer science department
+    - cse course details
+
+
+- intent: hodCse
+  examples: |
+    - Head of Department of computer science Department
+    - HOD of cse department
+
+
+- intent: staffCse
+  examples: |
+    - computer science Department Staff Name
+    - cse department staff
+
+
+- intent: labCse
+  examples: |
+    - Give me the Name of computer science lab.
+    - Name of cse lab
+    - cse lab
+
+
+
+- intent: AboutEntc
+  examples: |
+    - Give me the Details about entc department
+    - entc department details
+    - ENTC DEPARTMENT DETAILS
+
+- intent: CoursesEntc
+  examples: |
+    - Course details of electronic & telecommunication department
+    - entc course details
+
+
+- intent: hodEntc
+  examples: |
+    - Head of Department of ENTC Department
+    - HOD of entc department
+
+
+- intent: staffEntc
+  examples: |
+    - Electronics & Telecommunication science Department Staff Name
+    - entc department staff
+
+
+
+- intent: labEntc
+  examples: |
+    - Give me the Name of entc lab.
+    - Name of ENTC lab
+    - electronics & telecommunication lab
+
+
+
+- intent: AboutIT
+  examples: |
+    - Give me the Details about IT Department
+    - IT department details
+    - IT DEPARTMENT DETAILS
+
+- intent: CoursesIT
+  examples: |
+    - Course details of IT department
+    - IT course details
+
+
+- intent: hodIT
+  examples: |
+    - Head of Department of IT Department
+    - HOD of IT department
+
+
+- intent: staffIT
+  examples: |
+    - IT Department Staff Name
+    - IT department staff
+
+
+
+
+- intent: labIT
+  examples: |
+    - Give me the Name of IT lab.
+    - Name of IT lab
+    - IT lab
+
+
+- intent: AboutMCA
+  examples: |
+    - Give me the Details about mca department
+    - mca  department details
+    - MCA  DEPARTMENT DETAILS
+
+- intent: CoursesMCA
+  examples: |
+    - Course details of mca department
+    - MCA course details
+
+
+- intent: hodMCA
+  examples: |
+    - Head of Department of MCA Department
+    - HOD of mca department
+
+
+- intent: labMCA
+  examples: |
+    - Give me the Name of mca lab.
+    - Name of MCA lab
+    - MCA lab
+
+
+- intent: staffMCA
+  examples: |
+    - MCA Department Staff Name
+    - mca department staff
+
+
+
+
+- intent: AboutMath
+  examples: |
+    - Give me the Details about math department
+    - math department details
+    - MATH DEPARTMENT DETAILS
+
+
+- intent: CoursesMath
+  examples: |
+    - Course details of Math department
+    - MATH course details
+
+
+
+- intent: hodMath
+  examples: |
+    - Head of Department of Math Department
+    - HOD of Math department
+
+
+
+- intent: staffMath
+  examples: |
+    - Math Department Staff Name
+    - math department staff
+
+
+
+
+- intent: labMath
+  examples: |
+    - Give me the Name of math lab.
+    - Name of Math lab
+    - MATH lab
+
+
+
+- intent: AboutScience
+  examples: |
+    - Give me the Details about science department
+    - science department details
+    - science department DETAILS
+
+- intent: CoursesScience
+  examples: |
+    - Course details of science department
+    - Science course details
+
+
+
+- intent: hodScience
+  examples: |
+    - Head of Department of Science Department
+    - HOD of science department
+
+
+- intent: staffScience
+  examples: |
+    - Science Department Staff Name
+    - science department staff
+
+
+
+- intent: labScience
+  examples: |
+    - Give me the Name of science lab.
+    - Name of science lab
+    - Science lab
+
+
+- intent: AboutMechanics
+  examples: |
+    - Give me the Details about mechanics department
+    - mechanics department details
+    - MECHANICS DEPARTMENT DETAILS
+
+
+- intent: CoursesMechanics
+  examples: |
+    - Course details of mechanics department
+    - Mechanics course details
+
+
+- intent: hodMechanics
+  examples: |
+    - Head of Department of Mechanics Department
+    - HOD of mechanics department
+
+
+
+- intent: staffMechanics
+  examples: |
+    - Mechanics Department Staff Name
+    - mechanics department staff
+
+
+- intent: labMechanics
+  examples: |
+    - Give me the Name of mechanics lab.
+    - Name of mechanics lab
+    - Mechanics lab
+
+
+
+- intent: Civil_Details
+  examples: |
+    - more info Civil Department
+    - more info civil department
+    - more info CIVIL DEPARTMENT
+
+
+- intent: ele_Details
+  examples: |
+    - more info Electrical Department
+    - more info electrical department
+
+
+
+- intent: Mech_Details
+  examples: |
+    - more info Mechanical Department
+    - more info mech department
+    - more info MECH DEPARTMENT
+
+- intent: CSE_Details
+  examples: |
+    - more info computer science department
+    - more info cse department
+    - more info CSE DEPARTMENT
+
+
+- intent: ET_Details
+  examples: |
+    - more info electronics & telecommunication
+    - more info entc department
+    - more info ENTC Department
+
+
+- intent: IT_Details
+  examples: |
+    - more info Information Technology Department
+    - more info INFORMATION TECHNOLOGY DEPARTMENT
+    - more info IT department
+
+
+- intent: MCA_Details
+  examples: |
+    - more info MCA Department
+    - more info mca department
+
+
+
+- intent: Science_Details
+  examples: |
+    - more info Science Department
+    - more info science department
+    - more info Science Department
+
+
+- intent: Math_Details
+  examples: |
+    - more info Math Department
+    - more info mathematical department
+    - more info MATH Department
+
+
+- intent: Mechanics_Details
+  examples: |
+    - more info Mechanics Department
+    - more info mechanics department
+
+
 
 
 
