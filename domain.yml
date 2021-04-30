@@ -762,7 +762,7 @@ responses:
 
 
 
-# College Canteen  Responses
+# College CanteeResponses
 
   utter_College_Canteen:
   - text: "@@@@@ The Native Place of Food.@@@@@"
