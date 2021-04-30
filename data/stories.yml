@@ -500,7 +500,7 @@ stories:
     - intent: GymExtension
     - action: utter_GymExtension
 
-# College Canteen story
+# College Canteenstory
 - story: College_Canteen
   steps:
     - intent: College_Canteen
