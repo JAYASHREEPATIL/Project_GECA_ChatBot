@@ -1100,6 +1100,180 @@ nlu:
 
 
 
+# college Basic Details
+
+- intent: College_Details
+  examples: |
+
+   - What makes this College special?
+   - Give me the special things about college?
+   - college special things?
+   - College Features?
+   - what are the special things about college?
+
+- intent: College1
+  examples: |
+   - what is this college proud of?
+   - What's proud about college?
+   - college proud?
+
+
+- intent: College5
+  examples: |
+   - How diverse is this campus?
+
+- intent: College6
+  examples: |
+   - what is the college bond rating?
+   - college top position?
+   - top position of this college in maharashtra government college?
+   - rank of this college in government college in maharashtra?
+
+
+- intent: College8
+  examples: |
+   - University name of this college?
+   - college belongs to which university?
+   - can I know about the university of this college?
+   - Give me the university of this college?
+
+- intent: College9
+  examples: |
+   - Where is the college located?
+   - location of the college?
+   - college area?
+   - can you give me a college location?
+   - In which area college is located?
+
+
+
+- intent: College11
+  examples: |
+   - Who is the college principal?
+   - name of college principal?
+   - college principal?
+
+- intent: College12
+  examples: |
+   - When the college is Established?
+
+
+- intent: College13
+  examples: |
+   - what about the vision and mission of this college?
+   - Vision and mission of the college?
+   - Vision of this College?
+   - mission of the college?
+   - vision/mission of geca?
+
+- intent: College14
+  examples: |
+   -  How to reach college?
+   - How to reach college by Air?
+   - How to reach college by train?
+   - How to reach college by Bus?
+
+
+
+- intent: College16
+  examples: |
+   -  How many departments in this college?
+   - Which departments are in this college?
+   - which courses are offered by this college?
+   - department name?
+
+
+- intent: College17
+  examples: |
+   - Is this College on a semester, trimester or quarter system?
+   - Is college semester wise?
+   - Is college a year?
+   - Is college a year?
+
+
+- intent: College19
+  examples: |
+   - How can I transfer to another engineering college?
+   - How can I transfer to a different college?
+
+- intent: College20
+  examples: |
+   - What tutoring services do you have?
+   - Does the college provide extra courses for students?
+   - Does the college provide any online courses to students?
+   - Which courses and certification college provides?
+
+- intent: College22
+  examples: |
+    - How do I cancel My admission from this college?
+    - Is money paid to cancel the admission?
+    - How much money to cancel the admission?
+
+
+
+- intent: College24
+  examples: |
+   - College timing?
+   - timing for the college?
+   - When the college is open?
+   - opening time for college?
+   - closing time for college?
+
+- intent: College25
+  examples: |
+   - Does the college have a Canteen Facility?
+   - Is College a Canteen?
+   - Canteen is available in college?
+   - Does the college have any facility for college?
+
+
+- intent: College26
+  examples: |
+   - Is there any criteria for attending college?
+   - Is any compulsion for lectures and classes?
+   - Is attending lectures compulsory?
+   - how many percentage attendance is required?
+
+
+- intent: College27
+  examples: |
+   - Is there any punishment for bunking a college?
+   - Is there any punishment to buncking a lecture?
+   - Is there any punishment for bunking a class?
+   - Bunking a class/lecture
+
+- intent: College28
+  examples: |
+   - Does any criteria for College Exam?
+   - How many percentage attendance is required to give the college exam?
+   - Can I give a college exam without attending lectures/classes?
+
+
+- intent: College29
+  examples: |
+   - Contact No. of College?
+   - Administrative office Contact No.
+   - Contact No. of Administrative offices.
+   - Give me the contact Number of college.
+
+
+
+- intent: College30
+  examples: |
+   - Give me an Address of GECA College?
+   - College Address.
+   - Office Address.
+   - Give me an Office Address of GECA?
+
+- intent: Air
+  examples: |
+
+- intent: Train
+  examples: |
+
+- intent: Bus
+  examples: |
+
 
 
 

@@ -564,3 +564,57 @@ stories:
     - intent: sportsCoach
     - action: utter_sportsCoach
 
+# College Details story
+- story: College_Details
+  steps:
+    - intent: College_Details
+    - action: utter_CollegeSpecial
+    - intent: College1
+    - action: utter_CollegeProud
+    - intent: College2
+    - action: utter_CampusDiverse
+    - intent: College6
+    - action: utter_collegeRating
+    - intent: College8
+    - action: utter_University
+    - intent: College9
+    - action: utter_collegeLocation
+    - intent: College10
+    - action: utter_Principal
+    - intent: College12
+    - action: utter_College_establish
+    - intent: College13
+    - action: utter_VM
+    - intent: College14
+    - action: utter_reach
+    - intent: College16
+    - action: utter_collegeDept
+    - intent: College17
+    - action: utter_clPattern
+    - intent: College19
+    - action: utter_TransferCollege
+    - intent: College20
+    - action: utter_Tuto
+    - intent: College22
+    - action: utter_AddCancel
+    - intent: College24
+    - action: utter_CollegeTime
+    - intent: College25
+    - action: utter_Canteen
+    - intent: College26
+    - action: utter_attendence
+    - intent: College27
+    - action: utter_collegeBunk
+    - intent: College28
+    - action: utter_CollegeExam
+    - intent: College29
+    - action: utter_CollegeContact
+    - intent: College30
+    - action: utter_CollegeAddress
+    - intent: Air
+    - action: utter_Air
+    - intent: Train
+    - action: utter_Train
+    - intent: Bus
+    - action: utter_Bus
+

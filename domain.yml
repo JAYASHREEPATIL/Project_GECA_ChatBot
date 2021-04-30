@@ -918,6 +918,149 @@ responses:
 
 
 
+# College Details Responses
+
+  utter_CollegeSpecial:
+  - text: "The aim of the college, for the individuals student, is to eliminate the need
+        in his life for the college; the task is to help him become a self-educating man."
+
+
+  utter_CollegeProud:
+  - text: "We are proud to be part of an institute that promotes a strong curriculum with a keen interest in participation beyonds books."
+
+
+
+
+  utter_CampusDiverse:
+  - text: "The campus houses high-tech amenities; basketball, squash and tennis courts; cricket, football and hockey
+         grounds and nature friendly campus"
+
+  utter_collegeRating:
+  - text: " GECA College is one of the best college of Maharashtra, It is among the top 10 colleges of Maharashtra(Including IITS,
+           IIITs,NITs."
+
+
+
+  utter_University:
+  - text: " Dr. Babasaheb Ambedkar Marathwada University."
+
+  utter_collegeLocation:
+  - text: " The institute is located near the Aurangabad Divisional Board of Higher Secondary Education(SSC),
+         The College is 2 km away from the Aurangabad Railway station;
+         3 km away from the central bus stand; and 9 km away from the Chikalthana Airport."
+
+
+
+
+
+  utter_Principal:
+  - text: " Dr. P. B. Murnal Sir."
+
+  utter_College_establish:
+  - text: " Government College of Engineering, Aurangabad(GECA) is an autonomous engineering Institute in Maharashtra state of
+         India. It is affiliated to the Dr. Babasaheb Ambedkar Marathwada University and was established in 1960."
+
+
+  utter_VM:
+  - text:  " VISION:- In pursuit of global competitiveness, the institute is committed to excel in engineering education and research
+                   which concerns the environment and society.
+
+          MISSION:- 1) Provide a conducive environment for academic excellence in engineering education.
+                    2) Enhance research and development along with promotion to sponsored projects and industrial
+                        consultancy.
+                    3) Faster development of students by creating awareness for needs of society,sustainable development and human values."
+
+
+
+  utter_reach:
+  - text: " Please select Your Option:"
+    buttons:
+     - title: "By Air"
+       payload: "/Air"
+     - title: "By Train"
+       payload: "/Train"
+     - title: "By Bus"
+       payload: "/BUS"
+
+
+  utter_Air:
+  - text: "BY Air
+        The airport is about 7 km from the institute."
+
+  utter_Train:
+  - text: " By Train
+         There are 4 direct trains daily to/from Mumbai. The Tapovan Express departs at 2.55 PM gets you into Mumbai at
+         11.20 pm.
+         The Overnight Devagiri Express departs from Aurangabad at 11 pm and arrives at mumbai at 7.00am
+         The Nandigram Express departs at 10.00pm and arrives at Mumbai at 5.00 am."
+
+
+
+  utter_Bus:
+  - text: "There are MSRTC Buses from Aurangabad To Pune, Nashik, Indore and Mumbai. The MSRTC and MTDC also
+        offer luxury overnight buses to Mumbai."
+
+  utter_collegeDept:
+  - text: " GECA College Departments are:-
+         1) Civil Engineering Department
+         2) Mechanical Engineering Department
+         3) Electrical Engineering Department
+         4) Computer Science Engineering Department
+         5) Electronics and Telecommunication Department
+         6) Information Technology Department
+         7) Master in computer Application Department
+         8) Applied Science Department
+         9) Applied Mathematics Department
+         10) Applied Mechanics Department
+          "
+
+  utter_clPattern:
+  - text: "The college is Semester Base only..."
+
+  utter_TransferCollege:
+  - text: "Yes you can change college during 2nd year of engineering universities accept transfer students.
+        To get a better college you need good grade points in marks. For transfer you have to directly apply to college
+        administration and take a transfer letter with the signature of your head of Institution."
+
+
+  utter_Tuto:
+  - text: " We are offering Online courses for the Students such as NPTEL,COURSERA etc."
+
+
+  utter_AddCancel:
+  - text: "1) Apply online for cancellation through candidate login on the website DTE Maharashtra.
+        2) Take Printout of application for cancellation of admission.
+        3) Submit the duly signed copy of the DTE application for cancellation of admission to the institute in person."
+
+
+  utter_CollegeTime:
+  - text: " College Opening Time: 10.30 Am.
+         College Closing Time: 5.30 Pm."
+
+  utter_Canteen:
+  - text: " The college is providing canteen facility to the student as well as teaching and non teaching staff of the college;
+           It is capable of catering the demands of the students."
+
+  utter_attendence:
+  - text: "It is very important that your attendance should be a 75 % in each Semester."
+
+  utter_collegeBunk:
+  - text: " Yes, You can not attend The Class Test and The End Semester Exam when you're bunking lectures.
+         It is very important that your attendance should be a 75 % in each Semester."
+
+  utter_CollegeExam:
+  - text: " Your Class attendance must be a 75 % for attending the Exam."
+
+  utter_CollegeContact:
+  - text: " Administrative Office
+         Phone No. - 0240-2366101"
+
+  utter_CollegeAddress:
+  - text: " GOVERNMENT COLLEGE OF ENGINEERING
+         Railway Station Road,
+         Aurangabad
+         Maharashtra,
+         India - 431005."
 
 
 
