@@ -66,17 +66,77 @@ intents:
   - TE_CSL
   - BE_CSL
   - visit_tpo
+  - email
+  - admission_enquiry
+  - student_section
+  - scholarship_enquiry
+  - educationloan_enquiry
   - end
 
+slots:
+  sender_email:
+    type: text
+  sender_name:
+    type: text
+  sender_message:
+    type: text
 
+
+
+forms:
+  email_form:
+    sender_email:
+    - type: from_text
+    sender_name:
+    - type: from_text
+    sender_message:
+    - type: from_text
 
 responses:
+
   utter_start:
   - text: "👋Hello\n I am GECA Bot,\n how can I help you 😊 "
 
   utter_end:
   - text: "It's my pleasure😊\nHappy to help you ❤"
 
+  utter_ask_sender_email:
+    - text: Please Enter your email address
+
+  utter_ask_sender_name:
+    - text: Enter your name
+
+  utter_ask_sender_message:
+    - text: Enter your message
+
+#remaining Content
+
+  utter_admission_enquiry:
+    - text: "Yes Sure 😍😍"
+      buttons:
+        - title: "Click Here"
+          payload: "/visit_tpo"
+
+
+  utter_student_section:
+    - text: "You can contact Student Section or Visit below link: 👇"
+      buttons:
+        - title: "Click Here"
+          payload: "/visit_tpo"
+
+  utter_scholarship_enquiry:
+    - text: "You can get Scholarship for more details visit below link: 👇"
+      buttons:
+        - title: "Click Here"
+          payload: "/visit_tpo"
+
+  utter_educationloan_enquiry:
+    - text: "You can get Education Loan trough your respective Banks our college always appreciate to you and support you 😊😊  for more details you can visit below link: 👇"
+      buttons:
+        - title: "Click Here"
+          payload: "/visit_tpo"
+
+#tpo
   utter_more_detail_traning:
   - text: "you can contact TPO students coordinator or visit this one 👇 :"
     buttons:
@@ -1595,5 +1655,10 @@ actions :
   - action_Science_Details
   - action_Math_Details
   - action_Mechanics_Details
+  - action_educationloan
+  - action_scholarship
+  - action_studentsection
+  - action_admission
+  - send_email_sender
 
 
