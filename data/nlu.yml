@@ -10,6 +10,59 @@ nlu:
     - 👋
     - what's app
 
+- intent: email
+  examples: |
+    - send email
+    - send mail
+    - contact college
+
+#Reamining Content
+
+- intent: admission_enquiry
+  examples: |
+    - admission
+    - how to take addmission
+    - want to take addmission
+    - after Diploma
+    - after 12th
+    - after polytechnic
+    - after HSC
+
+- intent: student_section
+  examples: |
+    - how to contact student section
+    - student section
+    - I Card
+    - bonafied
+    - Mark memo
+    - degree certificate
+    - scholarship enquiry
+    - fee structure
+
+
+- intent: scholarship_enquiry
+  examples: |
+    - Can I get scholarship
+    - how to get scholarship
+    - OBC
+    - SC
+    - NT
+    - VJNT
+    - SBC
+    - Open
+    - EBC
+    - how to fill scholarship form
+    - does college provide scholarship
+
+- intent: educationloan_enquiry
+  examples: |
+    - Can I get education loan
+    - how to get education loan
+    - education loan
+    - loan
+
+
+
 - intent: tpo_information
   examples: |
     - who is is the training and placement officer of your college?
