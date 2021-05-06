@@ -3,4 +3,27 @@ version: "2.0"
 rules:
 
 
+#- rule: email Form
+#  steps:
+#    - intent: email
+#    - action: email_form
+#    - action: send_email_sender
 
+- rule: email Form
+  steps:
+  - intent: email
+  - action: email_form
+  - active_loop: email_form
+
+- rule: Submit form
+  condition:
+  # Condition that form is active.
+  - active_loop: email_form
+  steps:
+  # Form is deactivated
+  - action: email_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  # The actions we want to run when the form is submitted.
+  - action: send_email_sender
