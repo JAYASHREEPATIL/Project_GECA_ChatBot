@@ -6,6 +6,37 @@ stories:
   - intent: start
   - action: utter_start
 
+#remaining Content
+- story: admission info path
+  steps:
+  - intent: admission_enquiry
+  - action: utter_admission_enquiry
+  - intent: visit_tpo
+  - action: action_admission
+
+- story: student section
+  steps:
+  - intent: student_section
+  - action: utter_student_section
+  - intent: visit_tpo
+  - action: action_studentsection
+
+
+- story: scholarship info path
+  steps:
+  - intent: scholarship_enquiry
+  - action: utter_scholarship_enquiry
+  - intent: visit_tpo
+  - action: action_scholarship
+
+- story: education loan info path
+  steps:
+  - intent: educationloan_enquiry
+  - action: utter_educationloan_enquiry
+  - intent: visit_tpo
+  - action: action_educationloan
+
+
 - story: happy tpo info path
   steps:
   - intent: more_detail_traning
