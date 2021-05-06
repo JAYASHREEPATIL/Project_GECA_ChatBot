@@ -126,6 +126,7 @@ class PlacementRecordOfLast(Action):
         webbrowser.open(link_url)
         return []
 
+
 class ActionCivil(Action):
     def name(self) -> Text:
         return "action_Civil_Details"
@@ -206,7 +207,6 @@ class ActionET(Action):
         return []
 
 
-
 class ActionITechology(Action):
     def name(self) -> Text:
         return "action_IT_Details"
@@ -285,3 +285,92 @@ class ActionMechanics(Action):
         dispatcher.utter_message("wait... you are redirected")
         webbrowser.open(mechanics_url)
         return []
+
+
+# Email Action
+class ActionDemoEmail(Action):
+    def name(self):
+        return 'send_email_sender'
+
+    def run(self, dispatcher, tracker, domain):
+        import os
+        import smtplib
+        from email.message import EmailMessage
+
+        msg = EmailMessage()
+        msg['Subject'] = 'GECA Support'
+        msg['From'] = 'mainon.geca@gmail.com'  # sender's email address
+        msg['To'] = tracker.get_slot("sender_email")  # receiver's email address
+
+        msg.set_content(
+            'Hello Dear {},\n \n      Thank you for your response, your query on {} is successfully submitted.  As '
+            'soon as possible we will get in touch with you! \n \n \n \n \n Thank You '.format(
+                tracker.get_slot("sender_name"), tracker.get_slot("sender_message"))
+        )
+
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+            smtp.login('mainon.geca@gmail.com', 'Pass-Pass#7890')
+            smtp.send_message(msg)
+        dispatcher.utter_message("Your Email has send")
+
+    # remaining Content
+
+    class ActionAdmission(Action):
+        def name(self) -> Text:
+            return "action_admission"
+
+        async def run(
+                self,
+                dispatcher,
+                tracker: Tracker,
+                domain: "DomainDict",
+        ) -> List[Dict[Text, Any]]:
+            url = "http://www.dtemaharashtra.gov.in/index.html"
+            dispatcher.utter_message("wait... you are redirected")
+            webbrowser.open(url)
+            return []
+
+    class ActionStudentSection(Action):
+        def name(self) -> Text:
+            return "action_studentsection"
+
+        async def run(
+                self,
+                dispatcher,
+                tracker: Tracker,
+                domain: "DomainDict",
+        ) -> List[Dict[Text, Any]]:
+            url = "http://geca.ac.in/home.aspx"
+            dispatcher.utter_message("wait... you are redirected")
+            webbrowser.open(url)
+            return []
+
+        class ActionScholarship(Action):
+            def name(self) -> Text:
+                return "action_scholarship"
+
+            async def run(
+                    self,
+                    dispatcher,
+                    tracker: Tracker,
+                    domain: "DomainDict",
+            ) -> List[Dict[Text, Any]]:
+                url = "https://mahadbtmahait.gov.in/login/login"
+                dispatcher.utter_message("wait... you are redirected")
+                webbrowser.open(url)
+                return []
+
+        class ActionEducationLoan(Action):
+            def name(self) -> Text:
+                return "action_educationloan"
+
+            async def run(
+                    self,
+                    dispatcher,
+                    tracker: Tracker,
+                    domain: "DomainDict",
+            ) -> List[Dict[Text, Any]]:
+                url = "https://www.vidyalakshmi.co.in/Students/"
+                dispatcher.utter_message("wait... you are redirected")
+                webbrowser.open(url)
+                return []
