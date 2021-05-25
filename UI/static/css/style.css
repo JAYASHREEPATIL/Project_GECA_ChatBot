@@ -202,6 +202,7 @@ video:focus {
 
 .menuChips {
 	display: block;
+	width: 11rem;
 	background: #254585;
 	color: #fff;
 	text-align: center;

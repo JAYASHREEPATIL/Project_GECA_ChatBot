@@ -10,6 +10,83 @@ nlu:
     - 👋
     - what's app
 
+#starting button intent
+- intent: tpo_starting
+  examples: |
+    - tpo starting
+
+- intent: library_starting
+  examples: |
+    - library starting
+
+- intent: sports_starting
+  examples: |
+    - sport starting
+
+- intent: gym_starting
+  examples: |
+    - gym starting
+
+- intent: college_Canteen_starting
+  examples: |
+    - college Canteen starting
+
+- intent: hostel_starting
+  examples: |
+    - hostel starting
+
+- intent: collegedetails_general_starting
+  examples: |
+    - collegedetails general starting
+
+- intent: departmentdetails_starting
+  examples: |
+    - departmentdetails starting
+
+- intent: placement_starting
+  examples: |
+    - placement starting
+
+- intent: training_workshop_starting
+  examples: |
+    - training workshop starting
+
+- intent: exam_starting
+  examples: |
+    - exam starting
+
+#login
+- intent: login
+  examples: |
+    - login
+    - login again
+
+- intent: mis_login
+  examples: |
+    - login mis
+    - mis login
+
+- intent: student_details
+  examples: |
+    - student details
+
+
+- intent: course_registration
+  examples: |
+    - course registration
+
+
+
+#- intent: newlogin
+#  examples: |
+#    - login
+#    - login again
+#    - new user
+#    - new login
+#    - new sign up
+
+
+#email content
 - intent: email
   examples: |
     - send email
@@ -74,6 +151,8 @@ nlu:
 - intent: visit_tpo
   examples: |
     - click here
+
+
 
 - intent: tpo_contact
   examples: |
