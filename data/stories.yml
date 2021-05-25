@@ -4,7 +4,37 @@ stories:
 - story: happy tpo welcome path
   steps:
   - intent: start
-  - action: utter_start
+  - action: utter_next_update
+
+#login story
+- story: login to MIS
+  steps:
+  - intent: login
+  - action: utter_login_next
+
+- story: login to MIS redirect MIS page
+  steps:
+  - intent: login
+  - action: utter_login_next
+  - intent: mis_login
+  - action: action_mis_login
+
+- story: login to Student Details
+  steps:
+  - intent: login
+  - action: utter_login_next
+  - intent: student_details
+  - action: action_student_details
+
+- story: login to Course Registration
+  steps:
+  - intent: login
+  - action: utter_login_next
+  - intent: course_registration
+  - action: action_course_registration
+
+
+
 
 #remaining Content
 - story: admission info path
@@ -94,7 +124,10 @@ stories:
     - intent: placement_record_of_2017_18
     - action: placeme_record_lastofYear
 
-
+- story: tpo start
+  steps:
+  - intent: tpo_starting
+  - action: utter_tpo_starting
 
 - story: happy tpo information path
   steps:
@@ -106,6 +139,11 @@ stories:
   - action: utter_tpomeet
   - intent: any_other_than_tpo
   - action: utter_any_other_than_tpo
+
+- story: placement start
+  steps:
+  - intent: placement_starting
+  - action: utter_placement_starting
 
 - story: happy placement information path
   steps:
@@ -122,6 +160,10 @@ stories:
   - intent: maximum_package
   - action: utter_maximum_package
 
+- story: traning starting
+  steps:
+  - intent: training_workshop_starting
+  - action: utter_training_workshop_starting
 
 - story: happy traning information path
   steps:
@@ -184,6 +226,10 @@ stories:
 
 
 #lirary Story
+- story: Library starting
+  steps:
+    - intent: library_starting
+    - action: utter_library_starting
 
 - story: Library
   steps:
@@ -280,7 +326,12 @@ stories:
 
 
 #Hostel story
-- story:
+- story: hostel starting
+  steps:
+    - intent: hostel_starting
+    - action: utter_hostel_starting
+
+- story: hostel path
   steps:
     - intent: Hostel
     - action: utter_Hostel
@@ -361,8 +412,15 @@ stories:
 
 - story: exam path
   steps:
+    - intent: exam_starting
+    - action: utter_exam_starting
+
+- story: exam path
+  steps:
     - intent: exam
     - action: utter_exam
+
+
 - story: CSE path
   steps:
     - intent: CSE
@@ -497,6 +555,10 @@ stories:
 
 
 # College Gym Story
+- story: College Gym start
+  steps:
+    - intent: gym_starting
+    - action: utter_gym_starting
 
 - story: College Gym
   steps:
@@ -532,6 +594,12 @@ stories:
     - action: utter_GymExtension
 
 # College Canteenstory
+- story: College Canteen start
+  steps:
+    - intent: college_Canteen_starting
+    - action: utter_college_Canteen_starting
+
+
 - story: College_Canteen
   steps:
     - intent: College_Canteen
@@ -551,10 +619,15 @@ stories:
 
 
 # College sport story
+- story: college sport starting
+  steps:
+    - intent: sports_starting
+    - action: utter_sports_starting
 
-- story:
+- story: college sport
   steps:
     - intent: CollegeSports
+    - intent: sports_starting
     - action: utter_CollegeSports
     - intent: NationalSport
     - action: utter_NationalSport
@@ -596,6 +669,11 @@ stories:
     - action: utter_sportsCoach
 
 # College Details story
+- story: College Details starting
+  steps:
+    - intent: collegedetails_general_starting
+    - action: utter_collegedetails_general_starting
+
 - story: College_Details
   steps:
     - intent: College_Details
@@ -650,6 +728,11 @@ stories:
     - action: utter_Bus
 
 # Department story
+- story: Department Information starting
+  steps:
+    - intent: departmentdetails_starting
+    - action: utter_departmentdetails_starting
+
 - story: Department_Information
   steps:
     - intent: Department
@@ -800,3 +883,10 @@ stories:
     - intent: Mechanics_Details
     - action: action_Mechanics_Details
 
+#- story: new login story
+#  steps:
+#    - intent: newlogin
+#    - action: action_Nullify
+#    - action: utter_login
+#    - action: user_details_form
+#    - active_loop: user_details_form

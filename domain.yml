@@ -71,7 +71,23 @@ intents:
   - student_section
   - scholarship_enquiry
   - educationloan_enquiry
+  - newlogin
   - end
+  - username:
+      use_entities:
+        - uname
+  - password:
+      use_entities:
+        - passwd
+  - optsub:
+      use_entities:
+        - optsub
+
+entities:
+  - uname
+  - passwd
+  - optsub
+
 
 slots:
   sender_email:
@@ -81,6 +97,12 @@ slots:
   sender_message:
     type: text
 
+  uname:
+    type: text
+  passwd:
+    type: text
+  optsub:
+    type: text
 
 
 forms:
@@ -92,14 +114,107 @@ forms:
     sender_message:
     - type: from_text
 
+
+  user_details_form:
+    uname:
+      - type: from_text
+        entity: uname
+    passwd:
+      - type: from_text
+        entity: passwd
+
+
+  courseregistration_form:
+    optsub:
+      - type: from_text
+        entity: optsub
+
+
 responses:
 
-  utter_start:
-  - text: "👋Hello\n I am GECA Bot,\n how can I help you 😊 "
 
+
+  utter_next_update:
+  - text: "👋Hello\n I am GECA Bot,\n how can I help you 😊 \n Choose from below Options it might help you !"
+    buttons:
+      - title: "Login"
+        payload: '/login'
+      - title: "General College Details"
+        payload: "/collegedetails_general_starting"
+      - title: "Department details"
+        payload: '/departmentdetails_starting'
+      - title: "Hostel Details"
+        payload: "/hostel_starting"
+      - title: "Library Information"
+        payload: "/library_starting"
+      - title: "Placement Information"
+        payload: "/placement_starting"
+      - title: "Training and Placement"
+        payload: "/tpo_starting"
+      - title: "Sports Information"
+        payload: "/sports_starting"
+      - title: "Gym Information"
+        payload: "/gym_starting"
+      - title: "Exams Details"
+        payload: "/exam_starting"
+      - title: "Training and Workshops"
+        payload: "/training_workshop_starting"
+      - title: "Canteen Information"
+        payload: "/college_Canteen_starting"
+
+
+
+
+#start actions
+  utter_tpo_starting:
+  - text: "what do you like to know about TPO?"
+
+  utter_library_starting:
+  - text: "what do you like to know about library?"
+
+  utter_sports_starting:
+  - text: "what do you like to know about Sports?"
+
+  utter_gym_starting:
+  - text: "what do you like to know about GYM?"
+
+  utter_college_Canteen_starting:
+  - text: "what do you like to know about Canteen?"
+
+  utter_departmentdetails_starting:
+  - text: "what do you like to know about Department?"
+
+  utter_placement_starting:
+  - text: "what do you like to know about Placement?"
+
+  utter_training_workshop_starting:
+  - text: "what do you like to know about training and workshop?"
+
+  utter_exam_starting:
+  - text: "what do you like to know about Exams?"
+
+  utter_hostel_starting:
+  - text: "what do you like to know about Hostel?"
+
+  utter_collegedetails_general_starting:
+  - text: "what do you like to know about College?"
+
+#login buttons
+#******************
+  utter_login_next:
+  - text: "Choose below Options: "
+    buttons:
+      - title: "MIS Login"
+        payload: "/mis_login"
+      - title: "Student Details"
+        payload: "/student_details"
+      - title: "Course Registration"
+        payload: "/course_registration"
+#*****************************
   utter_end:
   - text: "It's my pleasure😊\nHappy to help you ❤"
 
+#mail content
   utter_ask_sender_email:
     - text: Please Enter your email address
 
@@ -116,7 +231,6 @@ responses:
       buttons:
         - title: "Click Here"
           payload: "/visit_tpo"
-
 
   utter_student_section:
     - text: "You can contact Student Section or Visit below link: 👇"
@@ -239,10 +353,10 @@ responses:
         payload: "/electronic_engineering"
 
   utter_info_technology:
-  - text: " you can contact your TPO coordinator ---> Name: Rohit Salve  contact no: xxxxxxxxx"
+  - text: " you can contact your TPO coordinator ---> Name: XXXXXX  contact no: xxxxxxxxx"
 
   utter_computer_science:
-  - text: "you can contact your TPO coordinator ---> Name : Gajanan Dhotre contact no: xxxxxxxxx"
+  - text: "you can contact your TPO coordinator ---> Name : XXXXXXX contact no: xxxxxxxxx"
 
   utter_mech_engineering:
   - text: "you can contact your TPO coordinator ---> Name: xxxxxxxxx   contact no: xxxxxxxxx"
@@ -1631,6 +1745,23 @@ responses:
 
 
 
+  utter_academicchoices:
+  - text: "Would You like to see your details or want to do Course Registration ?"
+
+  utter_greetagain:
+  - text: "Welcome back ! Successfully logged in!"
+
+  utter_ask_uname:
+  - text: "what is your username"
+
+  utter_ask_passwd:
+  - text: "what is your password"
+
+  utter_ask_optsub:
+  - text: "Select the optional course from the given courses"
+
+
+
 
 
 
@@ -1660,5 +1791,11 @@ actions :
   - action_studentsection
   - action_admission
   - send_email_sender
-
+  - action_mis_login
+  - action_student_details
+  - action_course_registration
+#  - action_OptionalCourse
+#  - action_CourseRegistration
+#  - action_Nullify
+#  - action_StudentDetails
 
