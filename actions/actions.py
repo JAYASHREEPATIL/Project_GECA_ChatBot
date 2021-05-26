@@ -387,7 +387,9 @@ class ActionDemoEmail(Action):
                         tracker: Tracker,
                         domain: "DomainDict",
                 ) -> List[Dict[Text, Any]]:
-                    dispatcher.utter_message("You are log in :)")
+                    mis_url = "https://mis.geca.ac.in/iitmsv4eGq0RuNHb0G5WbhLmTKLmTO7YBcJ4RHuXxCNPvuIw=?enc=EGbCGWnlHNJ/WdgJnKH8DA=="
+                    dispatcher.utter_message("wait... you are redirected")
+                    webbrowser.open(mis_url)
                     return []
 
 class ActionFetch(Action):
