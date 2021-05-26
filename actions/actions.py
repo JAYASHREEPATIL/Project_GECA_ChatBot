@@ -390,182 +390,140 @@ class ActionDemoEmail(Action):
                     dispatcher.utter_message("You are log in :)")
                     return []
 
-                class ActionStudentDetailsLogin(Action):
-                    def name(self) -> Text:
-                        return "action_student_details"
+class ActionFetch(Action):
+    f1=0
+    def name(self) -> Text:
+        return "action_Fetch"
 
-                    async def run(
-                            self,
-                            dispatcher,
-                            tracker: Tracker,
-                            domain: "DomainDict",
-                    ) -> List[Dict[Text, Any]]:
-                        dispatcher.utter_message("Your Student Details here ! ")
-                        return []
-
-                    class ActionCourseRegistrationLogin(Action):
-                        def name(self) -> Text:
-                            return "action_course_registration"
-
-                        async def run(
-                                self,
-                                dispatcher,
-                                tracker: Tracker,
-                                domain: "DomainDict",
-                        ) -> List[Dict[Text, Any]]:
-                            dispatcher.utter_message("Your Course Registration has done ")
-                            return []
+    def run(
+            self,
+            dispatcher,
+            tracker: Tracker,
+            domain: "DomainDict",
+    ) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(template="utter_message")
+        r = fetch_data()
+        for i in r:
 
 
-# class ActionSubmit(Action):
-#     def name(self) -> Text:
-#         return "action_submit"
-#
-#     def run(
-#             self,
-#             dispatcher,
-#             tracker: Tracker,
-#             domain: "DomainDict",
-#     ) -> List[Dict[Text, Any]]:
-#         dispatcher.utter_message(template="utter_details_thanks",
-#                                  UserName=tracker.get_slot("uname"),
-#                                  Password=tracker.get_slot("passwd"))
-#         insert_data(tracker.get_slot("uname"), tracker.get_slot("passwd"))
-#         dispatcher.utter_message("Thanks for valuable feedback")
-#
-#         return []
-#
-# class ActionFetch(Action):
-#     f1=0
-#     def name(self) -> Text:
-#         return "action_Fetch"
-#
-#     def run(
-#             self,
-#             dispatcher,
-#             tracker: Tracker,
-#             domain: "DomainDict",
-#     ) -> List[Dict[Text, Any]]:
-#         dispatcher.utter_message(template="utter_message")
-#         r = fetch_data()
-#         for i in r:
-#
-#
-#             if (tracker.get_slot("uname")==i[0] and tracker.get_slot("passwd")==i[1]):
-#                 dispatcher.utter_message(template="utter_greetagain")
-#                 ActionFetch.f1=1
-#                 dispatcher.utter_message(template="utter_academicchoices")
-#                 break
-#         else:
-#             dispatcher.utter_message(text="Username password mismatch !\n")
-#             dispatcher.utter_message(response="utter_next")
-#             return [SlotSet("uname", None),SlotSet("passwd", None)]
-#         return[]
-#
-#
-#
-#
-#
-#
-# class ActionStudentDetails(Action):
-#     f=0
-#     def name(self) -> Text:
-#         return "action_StudentDetails"
-#
-#     def run(
-#             self,
-#             dispatcher,
-#             tracker: Tracker,
-#             domain: "DomainDict",
-#     ) -> List[Dict[Text, Any]]:
-#         if (tracker.get_slot("uname")!=None and tracker.get_slot("passwd")!=None):
-#
-#             result=fetch_details(tracker.get_slot("uname"))
-#             for i in result:
-#                 f=1
-#                 dispatcher.utter_message(text="name:",end="")
-#                 dispatcher.utter_message(i[0])
-#                 dispatcher.utter_message(text="father name:")
-#                 dispatcher.utter_message(i[1])
-#                 dispatcher.utter_message("rollno:")
-#                 dispatcher.utter_message(i[2])
-#                 dispatcher.utter_message("faculty advisor:")
-#                 dispatcher.utter_message(i[3])
-#                 dispatcher.utter_message("mobile no:")
-#                 dispatcher.utter_message(str(i[4]))
-#                 dispatcher.utter_message("religion:")
-#                 dispatcher.utter_message(i[5])
-#                 dispatcher.utter_message("semester")
-#                 dispatcher.utter_message(str(i[6]))
-#
-#         if f==0:
-#             dispatcher.utter_message(text="You haven't logged in for this activity. Please log in .")
-#
-#
-#
-#         return []
-#
-# class  ActionNullify(Action):
-#     def name(self) -> Text:
-#         return "action_Nullify"
-#
-#     def run(
-#             self,
-#             dispatcher,
-#             tracker: Tracker,
-#             domain: "DomainDict",
-#     ) -> List[Dict[Text, Any]]:
-#         dispatcher.utter_message(text="OK initiating for another user login")
-#
-#         return [SlotSet("uname", None),SlotSet("passwd", None)]
-#
-#
-#
-# class ActionCourseRegistration(Action):
-#     def name(self) -> Text:
-#         return "action_CourseRegistration"
-#
-#     def run(
-#             self,
-#             dispatcher,
-#             tracker: Tracker,
-#             domain: "DomainDict",
-#     ) -> List[Dict[Text, Any]]:
-#         d={
-#             1:["Basics of Computer Science","Physics","Chemistry","Engg. Mathematics"],
-#             2:["Engg.Mathematics","C programming","Physics","Chemistry"],
-#             3:["Engg.Mathematics","Database Management Systems","Core Java","Psychology","EVS","EDP"],
-#             4:["Data Structures","Computwer Organization","PECS","OSST","Lab-DS","Lab-Advance Java"],
-#             5:["TOC","OS","DAA","TQM","Software Engineering","Mini project"],
-#             6:["Computer Networks","Data Science","NNDL","Advanced Algorithm","Distributed Databases"],
-#             7:["NLP","Cloud Computing","Big Dta","Project-1"],
-#             8:["Project-2"]
-#         }
-#
-#         if (tracker.get_slot("uname")!=None and tracker.get_slot("passwd")!=None):
-#             cur_sem=get_sem(tracker.get_slot("uname"))
-#             for i in d[cur_sem[0]]:
-#                 dispatcher.utter_message(i)
-#
-#         else:
-#             dispatcher.utter_message(text="You haven't logged in for this activity. Please log in .")
-#
-#
-#         return []
-#
-#
-#
-# class ActionOptionalCourse(Action):
-#     def name(self) -> Text:
-#         return "action_OptionalCourse"
-#
-#     def run(
-#             self,
-#             dispatcher,
-#             tracker: Tracker,
-#             domain: "DomainDict",
-#     ) -> List[Dict[Text, Any]]:
-#         addoptcourse(tracker.get_slot("uname"),tracker.get_slot("optsub"))
-#         dispatcher.utter_message(text="Course added Successfully !")
-#
-#         return [SlotSet("optsub", None)]
+            if (tracker.get_slot("uname")==i[0] and tracker.get_slot("passwd")==i[1]):
+                dispatcher.utter_message(template="utter_greetagain")
+                ActionFetch.f1=1
+                dispatcher.utter_message(template="utter_academicchoices")
+                break
+        else:
+            dispatcher.utter_message(text="Username password mismatch !\n")
+            dispatcher.utter_message(response="utter_next_update")
+            return [SlotSet("uname", None),SlotSet("passwd", None)]
+        return[]
+
+
+
+
+
+
+class ActionStudentDetails(Action):
+    f=0
+    def name(self) -> Text:
+        return "action_StudentDetails"
+
+    def run(
+            self,
+            dispatcher,
+            tracker: Tracker,
+            domain: "DomainDict",
+    ) -> List[Dict[Text, Any]]:
+        if (tracker.get_slot("uname")!=None and tracker.get_slot("passwd")!=None):
+
+            result=fetch_details(tracker.get_slot("uname"))
+            for i in result:
+                f=1
+                dispatcher.utter_message(text="name:",end="")
+                dispatcher.utter_message(i[0])
+                dispatcher.utter_message(text="father name:")
+                dispatcher.utter_message(i[1])
+                dispatcher.utter_message("rollno:")
+                dispatcher.utter_message(i[2])
+                dispatcher.utter_message("faculty advisor:")
+                dispatcher.utter_message(i[3])
+                dispatcher.utter_message("mobile no:")
+                dispatcher.utter_message(str(i[4]))
+                dispatcher.utter_message("religion:")
+                dispatcher.utter_message(i[5])
+                dispatcher.utter_message("semester")
+                dispatcher.utter_message(str(i[6]))
+
+        if f==0:
+            dispatcher.utter_message(text="You haven't logged in for this activity. Please log in .")
+
+
+
+        return []
+
+class ActionNullify(Action):
+    def name(self) -> Text:
+        return "action_Nullify"
+
+    def run(
+            self,
+            dispatcher,
+            tracker: Tracker,
+            domain: "DomainDict",
+    ) -> List[Dict[Text, Any]]:
+        dispatcher.utter_message(text="OK initiating for another user login")
+
+        return [SlotSet("uname", None),SlotSet("passwd", None)]
+
+
+
+class ActionCourseRegistration(Action):
+    def name(self) -> Text:
+        return "action_CourseRegistration"
+
+    def run(
+            self,
+            dispatcher,
+            tracker: Tracker,
+            domain: "DomainDict",
+    ) -> List[Dict[Text, Any]]:
+        d={
+            1:["Basics of Computer Science","Physics","Chemistry","Engg. Mathematics"],
+            2:["Engg.Mathematics","C programming","Physics","Chemistry"],
+            3:["Engg.Mathematics","Database Management Systems","Core Java","Psychology","EVS","EDP"],
+            4:["Data Structures","Computwer Organization","PECS","OSST","Lab-DS","Lab-Advance Java"],
+            5:["TOC","OS","DAA","TQM","Software Engineering","Mini project"],
+            6:["Computer Networks","Data Science","NNDL","Advanced Algorithm","Distributed Databases"],
+            7:["NLP","Cloud Computing","Big Dta","Project-1"],
+            8:["Project-2"]
+        }
+
+        if (tracker.get_slot("uname")!=None and tracker.get_slot("passwd")!=None):
+            cur_sem=get_sem(tracker.get_slot("uname"))
+            for i in d[cur_sem[0]]:
+                dispatcher.utter_message(i)
+
+        else:
+            dispatcher.utter_message(text="You haven't logged in for this activity. Please log in .")
+
+
+        return []
+
+
+
+class ActionOptionalCourse(Action):
+    def name(self) -> Text:
+        return "action_OptionalCourse"
+
+    def run(
+            self,
+            dispatcher,
+            tracker: Tracker,
+            domain: "DomainDict",
+    ) -> List[Dict[Text, Any]]:
+        addoptcourse(tracker.get_slot("uname"),tracker.get_slot("optsub"))
+        dispatcher.utter_message(text="Course added Successfully !")
+
+        return [SlotSet("optsub", None)]
+
+
+

@@ -137,12 +137,12 @@ responses:
   utter_next_update:
   - text: "👋Hello\n I am GECA Bot,\n how can I help you 😊 \n Choose from below Options it might help you !"
     buttons:
-      - title: "Login"
-        payload: '/login'
       - title: "General College Details"
         payload: "/collegedetails_general_starting"
       - title: "Department details"
         payload: '/departmentdetails_starting'
+      - title: "Academic details"
+        payload: '/academics_starting'
       - title: "Hostel Details"
         payload: "/hostel_starting"
       - title: "Library Information"
@@ -161,6 +161,8 @@ responses:
         payload: "/training_workshop_starting"
       - title: "Canteen Information"
         payload: "/college_Canteen_starting"
+      - title: " MIS Login"
+        payload: '/mis_login'
 
 
 
@@ -199,18 +201,7 @@ responses:
   utter_collegedetails_general_starting:
   - text: "what do you like to know about College?"
 
-#login buttons
-#******************
-  utter_login_next:
-  - text: "Choose below Options: "
-    buttons:
-      - title: "MIS Login"
-        payload: "/mis_login"
-      - title: "Student Details"
-        payload: "/student_details"
-      - title: "Course Registration"
-        payload: "/course_registration"
-#*****************************
+
   utter_end:
   - text: "It's my pleasure😊\nHappy to help you ❤"
 
@@ -1738,13 +1729,6 @@ responses:
       - title: "More Info"
         payload: "/Mechanics_Details"
 
-
-
-
-
-
-
-
   utter_academicchoices:
   - text: "Would You like to see your details or want to do Course Registration ?"
 
@@ -1759,6 +1743,28 @@ responses:
 
   utter_ask_optsub:
   - text: "Select the optional course from the given courses"
+
+
+  utter_thanks:
+  - text: "thank you"
+
+  utter_message:
+  - text: "Ok ! let me check for validity"
+
+  utter_login:
+  - text: "Please login for this facility !"
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1792,10 +1798,8 @@ actions :
   - action_admission
   - send_email_sender
   - action_mis_login
-  - action_student_details
-  - action_course_registration
-#  - action_OptionalCourse
-#  - action_CourseRegistration
-#  - action_Nullify
-#  - action_StudentDetails
-
+  - action_Fetch
+  - action_StudentDetails
+  - action_CourseRegistration
+  - action_OptionalCourse
+  - action_Nullify
