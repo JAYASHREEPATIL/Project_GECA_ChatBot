@@ -10,7 +10,7 @@
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)   ![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)
 
 
-[![forthebadge made-with-python](https://img.shields.io/badge/MADE%20WITH-RASA%20OPEN%20SOURCE%202.0-3edbf0)](https://www.python.org/)   [![forthebadge made-with-python](https://img.shields.io/badge/MADE%20WITH-python%203.6%203.7%203.8-3edbf0)](https://www.python.org/)  [![forthebadge made-with-python](https://img.shields.io/badge/MADE%20WITH-PyCharm%20Community%20Edition%202020.3.3-3edbf0)](https://www.python.org/)  
+[![forthebadge made-with-python](https://img.shields.io/badge/MADE%20WITH-RASA%20OPEN%20SOURCE%202.0-3edbf0)](https://www.python.org/)   [![forthebadge made-with-python](https://img.shields.io/badge/MADE%20WITH-python%203.6%203.7%203.8-3edbf0)](https://www.python.org/)  [![forthebadge made-with-python](https://img.shields.io/badge/MADE%20WITH-PyCharm%20Community%20Edition%202020.3.3-3edbf0)](https://www.python.org/)  [![forthebadge made-with-python](https://img.shields.io/badge/DATABASE-MYSQL-3edbf0)](https://www.python.org/)  
 
 
  [![forthebadge made-with-python](https://img.shields.io/badge/DEPLOY%20WITH-%09%20WampServer%203.2.3-ff8474)](https://www.python.org/)  [![forthebadge made-with-python](https://img.shields.io/badge/DEPLOY%20WITH-ngrok-ff8474)](https://www.python.org/)  
