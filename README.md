@@ -28,7 +28,7 @@
 👉 Creating the situation of delight for students and management by bringing all college activities under one controlled roof.<br>
 
 
-Watch Video [here](https://drive.google.com/file/d/1DFquCLAD2fAB_OMHIvd3_6KG9QDoJSIw/view?usp=sharing)
+Watch Video 
 
 #### How to run/Deploy Project?
 
