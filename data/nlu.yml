@@ -152,7 +152,21 @@ nlu:
   examples: |
     - click here
 
+- intent: scholarship_click
+  examples: |
+    - scholarship click
 
+- intent: admission_click
+  examples: |
+    - admission click
+
+- intent: studentsection_click
+  examples: |
+    - studentsection click
+
+- intent: educationloan_click
+  examples: |
+    - educationloan click
 
 - intent: tpo_contact
   examples: |

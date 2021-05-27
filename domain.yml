@@ -230,25 +230,26 @@ responses:
     - text: "Yes Sure 😍😍"
       buttons:
         - title: "Click Here"
-          payload: "/visit_tpo"
+          payload: "/admission_click"
 
   utter_student_section:
     - text: "You can contact Student Section or Visit below link: 👇"
       buttons:
         - title: "Click Here"
-          payload: "/visit_tpo"
+          payload: "/studentsection_click"
 
   utter_scholarship_enquiry:
     - text: "You can get Scholarship for more details visit below link: 👇"
       buttons:
         - title: "Click Here"
-          payload: "/visit_tpo"
+          payload: "/scholarship_click
+"
 
   utter_educationloan_enquiry:
     - text: "You can get Education Loan trough your respective Banks our college always appreciate to you and support you 😊😊  for more details you can visit below link: 👇"
       buttons:
         - title: "Click Here"
-          payload: "/visit_tpo"
+          payload: "/educationloan_click"
 
 #tpo
   utter_more_detail_traning:

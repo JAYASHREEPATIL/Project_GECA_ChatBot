@@ -41,14 +41,14 @@ stories:
   steps:
   - intent: admission_enquiry
   - action: utter_admission_enquiry
-  - intent: visit_tpo
+  - intent: admission_click
   - action: action_admission
 
 - story: student section
   steps:
   - intent: student_section
   - action: utter_student_section
-  - intent: visit_tpo
+  - intent: studentsection_click
   - action: action_studentsection
 
 
@@ -56,14 +56,14 @@ stories:
   steps:
   - intent: scholarship_enquiry
   - action: utter_scholarship_enquiry
-  - intent: visit_tpo
+  - intent: scholarship_click
   - action: action_scholarship
 
 - story: education loan info path
   steps:
   - intent: educationloan_enquiry
   - action: utter_educationloan_enquiry
-  - intent: visit_tpo
+  - intent: educationloan_click
   - action: action_educationloan
 
 
