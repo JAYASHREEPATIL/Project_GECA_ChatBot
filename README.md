@@ -35,8 +35,8 @@ Watch Video [here](https://drive.google.com/file/d/1DFquCLAD2fAB_OMHIvd3_6KG9QDo
 Awesome! If you want to contribute to this project, you're always welcome! 
 
 ### Creators 💻✨
-<table>
-		<tr style="border-top:none;">
+<table  frame="box">
+		<tr>
 			<td align="center"><img src="./img/jay.png"  width=70px; height=70px; style="border-radius:50%;"></a><br/><sub><b>Jayashree Patil</b></sub><br/><a href="https://github.com/JAYASHREEPATIL"></a></td>
 		   <td align="center"><img src="./img/pra.png"  width=70px; height=70px; style="border-radius:50%;"><br /><sub><b>Prachi Nimkar</b></sub><br/><a href="https://github.com/prachinimkar1"></a></td>
 			<td align="center"><img src="./img/mug.png"  width=70px; height=70px; style="border-radius:50%;"><br /><sub><b>Mugdha Godse</b></sub><br/><a href="https://github.com/MugdhaGodse"></a></td>			
