@@ -7,33 +7,40 @@ stories:
   - action: utter_next_update
 
 #login story
-- story: login to MIS
-  steps:
-  - intent: login
-  - action: utter_login_next
+
 
 - story: login to MIS redirect MIS page
   steps:
-  - intent: login
-  - action: utter_login_next
   - intent: mis_login
   - action: action_mis_login
 
-- story: login to Student Details
+- story: academics path
   steps:
-  - intent: login
-  - action: utter_login_next
-  - intent: student_details
-  - action: action_student_details
+    - intent: academics_starting
+    - action: utter_login
+    - action: user_details_form
+    - active_loop: user_details_form
 
-- story: login to Course Registration
+- story: students details
   steps:
-  - intent: login
-  - action: utter_login_next
-  - intent: course_registration
-  - action: action_course_registration
+    - intent: student_details
+    - action: action_StudentDetails
 
 
+- story: course registration
+  steps:
+    - intent: courseregistration
+    - action: action_CourseRegistration
+    - action: courseregistration_form
+    - active_loop: courseregistration_form
+
+- story: new login story
+  steps:
+    - intent: newlogin
+    - action: action_Nullify
+    - action: utter_login
+    - action: user_details_form
+    - active_loop: user_details_form
 
 
 #remaining Content
@@ -883,10 +890,3 @@ stories:
     - intent: Mechanics_Details
     - action: action_Mechanics_Details
 
-#- story: new login story
-#  steps:
-#    - intent: newlogin
-#    - action: action_Nullify
-#    - action: utter_login
-#    - action: user_details_form
-#    - active_loop: user_details_form

@@ -1,43 +1,60 @@
-# Project_GECA_ChatBot
+# GecaBOT 🙋‍♀️
 
-## How to run rasa/project:
-### Step 1: 
-$ rasa train
-### Step 2: 
-$ rasa run -m models --enable-api --cors "*" --debug
+![Alt Text](./gecaBot-gif.gif)
 
-## Git Commands:
-### for updating your working domain/ Project :
-####
-$ git pull
+## Just ask your questions ❓ and get an instant response 😍😍
 
-### for adding/push data from your system on git repo:
-#### 
-$ git push
+### Say Hi 👋 to the GecaBot 
 
-## for push data from your system on git repo:
-### follow below process:
-#### => see the status of your system so, you know what are the changes you have done: command :->      
-$ git status
-#### => then add required files one by one : commnad :-> 
-$ git add "file name which u want to add"
-#### => then commit recently added file : commnad :-> 
-$ git commit -m  "here you can add comment on added file(give short info about that file)"
-#### => then finally push your file : commnad :->
-$ git push
 
-# Steps to create ngrok funnel 
-### Download ngrok application
-### download WAMP server
-1)Open the project in pycharm <br />
-2)Run action server by typing the command rasa run actions <br />
-3)Run api server by typing the command  rasa run -m models --enable-api --cors "*" --debug same time in another terminal <br />
-4)start ngrok prompt and type command ngrok http portno (port no. on which api server is running) <br />
-5)One global mapped url will be generated  for local api server <br />
-6)In UI/static//js/scripts.js file you will see one localhost address change that to this globally mapped address by ngrok and save the file <br /> 
-7)In Wamp folder there is one folder www copy UI folder of our project in this directory (location:C:\wamp64\www) <br />
-8)Start apache server and type localhost on browser after server starts<br />
-9)Open another ngrok prompt and type command ngrok http 80 (80 is standard port number on which wamp server runs. By running this command we are generating globally mapped url for our local geca.html page)  <br />
-10) Once this golbal mapping is generated you can put it in your browser and run the bot globally and can even share it with anyone. 
-<br />
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)   ![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)
+
+
+[![forthebadge made-with-python](https://img.shields.io/badge/MADE%20WITH-RASA%20OPEN%20SOURCE%202.0-3edbf0)](https://www.python.org/)   [![forthebadge made-with-python](https://img.shields.io/badge/MADE%20WITH-python%203.6%203.7%203.8-3edbf0)](https://www.python.org/)  [![forthebadge made-with-python](https://img.shields.io/badge/MADE%20WITH-PyCharm%20Community%20Edition%202020.3.3-3edbf0)](https://www.python.org/)  
+
+
+ [![forthebadge made-with-python](https://img.shields.io/badge/DEPLOY%20WITH-%09%20WampServer%203.2.3-ff8474)](https://www.python.org/)  [![forthebadge made-with-python](https://img.shields.io/badge/DEPLOY%20WITH-ngrok-ff8474)](https://www.python.org/)  
+ 
+
+
+ 
+ 
+  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg) ![forthebadge](https://forthebadge.com/images/badges/for-you.svg)
+
+## Want to get Familiar with Project 🤗?
+👉 The idea is to create a chatbot(text based) that will assist the user in every possible way to get into core details of college .<br>
+👉 The bot will work as virtual staff and will carry all corresponding tasks .<br>
+👉 Reduced management efforts.<br>
+👉 Creating the situation of delight for students and management by bringing all college activities under one controlled roof.<br>
+
+
+Watch Video [here](https://drive.google.com/file/d/1DFquCLAD2fAB_OMHIvd3_6KG9QDoJSIw/view?usp=sharing)
+
+#### How to run/Deploy Project?
+
+![deploy](./deployment_details.txt) 
+
+
+## Want to Contribute  🙋‍♂️?
+
+Awesome! If you want to contribute to this project, you're always welcome! 
+
+### Authors 💻✨
+<table width=200px; height=150px;>
+			<td align="center"><img src="./img/jay.png"  width=70px; height=70px; "></a><br/><sub><b>Jayashree Patil</b></sub><br/><a href="https://github.com/JAYASHREEPATIL"></a></td>
+		   <td align="center"><img src="./img/pra.png"  width=70px; height=70px;"><br /><sub><b>Prachi Nimkar</b></sub><br/><a href="https://github.com/prachinimkar1"></a></td>
+			<td align="center"><img src="./img/mug.png"  width=70px; height=70px; "><br /><sub><b>Mugdha Godse</b></sub><br/><a href="https://github.com/MugdhaGodse"></a></td>			
+		<td align="center"><img src="./img/ank.png"  width=70px; height=70px;><br /><sub><b>Ankita Kashid</b></sub><br/><a href="https://github.com/ankita-kashid"></a></td>	
+		</tr>
+		
+</table>
+
+	
+
+### ❤️ Found this project useful?
+If you found this project useful, then please consider giving it a  ⭐  on Github and sharing it with your friends via social media. It really motivate us to do more.
+
+
+
+
 

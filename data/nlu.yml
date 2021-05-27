@@ -9,6 +9,7 @@ nlu:
     - .
     - 👋
     - what's app
+    - hi
 
 #starting button intent
 - intent: tpo_starting
@@ -55,6 +56,10 @@ nlu:
   examples: |
     - exam starting
 
+- intent: academics_starting
+  examples: |
+    - academics starting
+
 #login
 - intent: login
   examples: |
@@ -69,21 +74,26 @@ nlu:
 - intent: student_details
   examples: |
     - student details
+    - details
+    - student
+    - my details
+    - detail info
+    - general info
+    - information
 
-
-- intent: course_registration
+- intent: courseregistration
   examples: |
     - course registration
+    - course
+    - registration
 
-
-
-#- intent: newlogin
-#  examples: |
-#    - login
-#    - login again
-#    - new user
-#    - new login
-#    - new sign up
+- intent: newlogin
+  examples: |
+    - login
+    - login again
+    - new user
+    - new login
+    - new sign up
 
 
 #email content

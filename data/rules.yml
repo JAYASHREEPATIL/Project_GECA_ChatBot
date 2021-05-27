@@ -28,28 +28,28 @@ rules:
   # The actions we want to run when the form is submitted.
   - action: send_email_sender
 
-#- rule: optional course form
-#  condition:
-#  # Condition that form is active.
-#  - active_loop: courseregistration_form
-#  steps:
-#  # Form is deactivated
-#  - action: courseregistration_form
-#  - active_loop: null
-#  - slot_was_set:
-#    - requested_slot: null
-#  # The actions we want to run when the form is submitted.
-#  - action: action_OptionalCourse
-#
-#- rule: user details submit form
-#  condition:
-#  # Condition that form is active.
-#  - active_loop: user_details_form
-#  steps:
-#  # Form is deactivated
-#  - action: user_details_form
-#  - active_loop: null
-#  - slot_was_set:
-#    - requested_slot: null
-#  # The actions we want to run when the form is submitted.
-#  - action: action_Fetch
+- rule: optional course form
+  condition:
+  # Condition that form is active.
+  - active_loop: courseregistration_form
+  steps:
+  # Form is deactivated
+  - action: courseregistration_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  # The actions we want to run when the form is submitted.
+  - action: action_OptionalCourse
+
+- rule: Submit form
+  condition:
+  # Condition that form is active.
+  - active_loop: user_details_form
+  steps:
+  # Form is deactivated
+  - action: user_details_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  # The actions we want to run when the form is submitted.
+  - action: action_Fetch
