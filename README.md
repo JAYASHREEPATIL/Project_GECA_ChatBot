@@ -22,19 +22,25 @@
   ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg) ![forthebadge](https://forthebadge.com/images/badges/for-you.svg)
 
 ## Want to get Familiar with Project 🤗?
+👉 The idea is to create a chatbot(text based) that will assist the user in every possible way to get into core details of college .<br>
+👉 The bot will work as virtual staff and will carry all corresponding tasks .<br>
+👉 Reduced management efforts.<br>
+👉 Creating the situation of delight for students and management by bringing all college activities under one controlled roof.<br>
+
+
 Watch Video [here](https://drive.google.com/file/d/1DFquCLAD2fAB_OMHIvd3_6KG9QDoJSIw/view?usp=sharing)
 
 ## Want to Contribute  🙋‍♂️?
 
 Awesome! If you want to contribute to this project, you're always welcome! 
 
-### Creators :zap::dizzy:
+### Creators 💻✨
 <table>
-		<tr>
-			<td align="center"><img src="./img/jay.png" height="auto" width="200" style="border-radius:50%;"></a><br/><sub><b>Jayashree Patil</b></sub><br/><a href="https://github.com/JAYASHREEPATIL">🧠🎯👨‍🎓✨</a></td>
-		   <td align="center"><img src="./img/pra.png"  width=100px;"><br /><sub><b>Prachi Nimkar</b></sub><br/><a href="https://github.com/prachinimkar1">👩🏻‍💻🎯🧠🌸✨</a></td>
-			<td align="center"><img src="./img/mug.png"  width=100px;"><br /><sub><b>Mugdha Godse</b></sub><br/><a href="https://github.com/MugdhaGodse">👩‍💻🌸🧠❤️</a></td>			
-		<td align="center"><img src="./img/ank.png"  width=100px;"><br /><sub><b>Ankita Kashid</b></sub><br/><a href="https://github.com/ankita-kashid">🧠💻🚀🎯❤️</a></td>	
+		<tr style="border-top:none;">
+			<td align="center"><img src="./img/jay.png"  width=70px; height=70px; style="border-radius:50%;"></a><br/><sub><b>Jayashree Patil</b></sub><br/><a href="https://github.com/JAYASHREEPATIL"></a></td>
+		   <td align="center"><img src="./img/pra.png"  width=70px; height=70px; style="border-radius:50%;"><br /><sub><b>Prachi Nimkar</b></sub><br/><a href="https://github.com/prachinimkar1"></a></td>
+			<td align="center"><img src="./img/mug.png"  width=70px; height=70px; style="border-radius:50%;"><br /><sub><b>Mugdha Godse</b></sub><br/><a href="https://github.com/MugdhaGodse"></a></td>			
+		<td align="center"><img src="./img/ank.png"  width=70px; height=70px; style="border-radius:50%;"><br /><sub><b>Ankita Kashid</b></sub><br/><a href="https://github.com/ankita-kashid"></a></td>	
 		</tr>
 		
 </table>
