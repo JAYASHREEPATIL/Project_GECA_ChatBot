@@ -32,7 +32,7 @@ Watch Video [here](https://drive.google.com/file/d/1DFquCLAD2fAB_OMHIvd3_6KG9QDo
 
 #### How to run/Deploy Project?
 
-![Alt Text]()
+![Alt Text](./deployment_details.txt)
 
 
 ## Want to Contribute  🙋‍♂️?
