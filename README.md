@@ -40,14 +40,12 @@ Deployment details [Here](./deployment_details.txt)
 Awesome! If you want to contribute to this project, you're always welcome! 
 
 ### Authors 💻✨
-<table width=200px; height=150px;>
-			<td align="center"><img src="./img/jay.png"  width=70px; height=70px; "></a><br/><sub><b>Jayashree Patil</b></sub><br/><a href="https://github.com/JAYASHREEPATIL"></a></td>
-		   <td align="center"><img src="./img/pra.png"  width=70px; height=70px;"><br /><sub><b>Prachi Nimkar</b></sub><br/><a href="https://github.com/prachinimkar1"></a></td>
-			<td align="center"><img src="./img/mug.png"  width=70px; height=70px; "><br /><sub><b>Mugdha Godse</b></sub><br/><a href="https://github.com/MugdhaGodse"></a></td>			
-		<td align="center"><img src="./img/ank.png"  width=70px; height=70px;><br /><sub><b>Ankita Kashid</b></sub><br/><a href="https://github.com/ankita-kashid"></a></td>	
-		</tr>
-		
-</table>
+<a href = "https://github.com/JAYASHREEPATIL"> 👉 Jayashree Patil </a><br>
+<a href = "https://github.com/prachinimkar1"> 👉 Prachi Nimkar </a><br>
+<a href = "https://github.com/MugdhaGodse"> 👉 Mugdha Godse </a><br>
+<a href = "https://github.com/ankita-kashid"> 👉 Ankita Kashid </a><br>
+ 
+ 
 
 	
 
