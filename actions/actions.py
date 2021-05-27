@@ -343,7 +343,7 @@ class ActionDemoEmail(Action):
                 domain: "DomainDict",
         ) -> List[Dict[Text, Any]]:
             dispatcher.utter_message("wait... you are redirected")
-            url = "http://geca.ac.in/home.aspx/"
+            url = "http://geca.ac.in/home.aspx"
             webbrowser.open(url)
             return []
 
