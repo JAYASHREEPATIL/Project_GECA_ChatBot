@@ -311,7 +311,7 @@ class ActionDemoEmail(Action):
         )
 
         with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-            smtp.login('mainon.geca@gmail.com', 'Pass-Pass#7890')
+            smtp.login('mainon.geca@gmail.com', '') 
             smtp.send_message(msg)
         dispatcher.utter_message("Your Email has send")
 
